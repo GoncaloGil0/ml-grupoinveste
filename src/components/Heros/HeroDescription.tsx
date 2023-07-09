@@ -1,12 +1,7 @@
-import './Styles/heroDescription.css'
 
 interface HeroDescriptionProps {
-
+  desc: string
 }
-export default function HeroDescription(props:HeroDescriptionProps) {
-    return (
-      <div>
-        <h1>HeroDescription</h1>
-      </div>
-    )
-  }
+export default function HeroDescription(props: HeroDescriptionProps) {
+  return (<h5>{props.desc}</h5>)
+}

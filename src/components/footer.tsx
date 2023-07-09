@@ -1,8 +1,8 @@
 
 export default function Footer() {
     return (
-      <footer>
-        <h1>Footer</h1>
+      <footer className="h-full px-20 py-4">
+        <p>Footer</p>
       </footer>
     )
   }

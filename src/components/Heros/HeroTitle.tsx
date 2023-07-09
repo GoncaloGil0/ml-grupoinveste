@@ -1,12 +1,7 @@
-import './Styles/heroTitle.css'
 
 interface HeroTitleProps {
-
+  title: string
 }
-export default function HeroTitle(props : HeroTitleProps) {
-    return (
-      <div>
-        <h1>HeroTitle</h1>
-      </div>
-    )
-  }
+export default function HeroTitle(props: HeroTitleProps) {
+  return (<h1>{props.title}</h1>)
+}
