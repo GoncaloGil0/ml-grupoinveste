@@ -10,11 +10,14 @@
     gap: 10px;
     align-items: start;
     justify-content: left;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     overflow: hidden;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .navBar.active {
@@ -24,7 +27,8 @@
 
 .navBar .links {
     height: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 15% 15% 15% auto 5%;
     align-items: start;
     justify-content: start;
     width: 100%;
@@ -53,6 +57,8 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .navBar .links div span {

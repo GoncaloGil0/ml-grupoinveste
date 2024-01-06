@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link, LinkProps } from "react-router-dom";
 
-interface HeroButtonProps {
-  href: string,
-  desc: string
+interface HeroButtonProps extends LinkProps {
+  desc: string;
 }
+
 export default function HeroButton(props: HeroButtonProps) {
-  return (<Link to={props.href}>{props.desc}</Link>)
+  const { desc, ...linkProps } = props;
+
+  return <Link {...linkProps}>{desc}</Link>;
 }

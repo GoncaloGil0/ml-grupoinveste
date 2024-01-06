@@ -1,0 +1,24 @@
+.section2 {
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 img {
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+}
+
+.section2 img:nth-child(2) {
+    bottom: unset;
+    top: 5%;
+    left: unset;
+    right: 15%;
+}

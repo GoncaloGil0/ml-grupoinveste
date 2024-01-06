@@ -1,7 +1,11 @@
+import { HTMLAttributes } from 'react';
 
-interface HeroDescriptionProps {
-  desc: string
+interface HeroDescriptionProps extends HTMLAttributes<HTMLHeadingElement> {
+  desc: string;
 }
+
 export default function HeroDescription(props: HeroDescriptionProps) {
-  return (<h5>{props.desc}</h5>)
+  const { desc, ...headingProps } = props;
+
+  return <h5 {...headingProps}>{desc}</h5>;
 }

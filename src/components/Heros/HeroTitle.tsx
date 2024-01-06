@@ -1,7 +1,11 @@
+import { HTMLAttributes } from 'react';
 
-interface HeroTitleProps {
-  title: string
+interface HeroTitleProps extends HTMLAttributes<HTMLHeadingElement> {
+  title: string;
 }
+
 export default function HeroTitle(props: HeroTitleProps) {
-  return (<h1>{props.title}</h1>)
+  const { title, ...headingProps } = props;
+
+  return <h1 {...headingProps}>{title}</h1>;
 }
