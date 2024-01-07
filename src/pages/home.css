@@ -5,24 +5,83 @@
     padding-bottom: 40px;
 }
 
-.slick-list {
+.trusted {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 0 15%;
+    overflow: hidden;
+}
+
+.trusted .text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trusted .slidesDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    gap: 30px;
+}
+
+.slidesDiv::before,
+.slidesDiv::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.slidesDiv::before {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.slidesDiv::after {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.multipleRows {
+    width: 100%;
+    height: 100%;
+}
+
+.multipleRows .logo {
+    transition: .5s;
+    max-width: 90%;
+    max-height: 50px;
+    height: auto;
+    aspect-ratio: initial;
+}
+
+.slide .slick-list {
     transition: .5s;
     overflow: visible;
 }
 
-.slick-active.slick-center {
+.slide .slick-active.slick-center {
     transition: .5s;
     transform: scale(1.05);
     opacity: 1;
 }
 
-.slick-slide {
+.slide .slick-slide {
     transition: .5s;
     transform: scale(.8);
     opacity: .9;
 }
 
-.slideDivs {
+.slide .slideDivs {
     transition: .5s;
     background-color: rgba(0, 0, 0, 0.85);
     width: 100%;
@@ -32,10 +91,12 @@
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: start;
     gap: 20px;
 }
 
-.slideDivs a {
+.slide .slideDivs a {
     color: white;
     display: flex;
     gap: 10px;
@@ -45,11 +106,86 @@
     margin-bottom: 0;
 }
 
-.slideDivs p {
+.slide .slideDivs p {
     color: #ccc;
     font-size: medium;
 }
 
-.slideDivs img {
-    max-width: 40%;
+.slide .slideDivs img {
+    aspect-ratio: initial;
+    width: auto;
+    height: 50px;
+}
+
+.btnEmpresas {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 20%;
+    aspect-ratio: 1/1;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnEmpresas .wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.btnEmpresas span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.btnEmpresas span:nth-child(1) {
+    width: 125%;
+    height: 125%;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btnEmpresas span:nth-child(2) {
+    width: 155%;
+    height: 155%;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btnEmpresas span:nth-child(3) {
+    width: 185%;
+    height: 185%;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btnEmpresas span:nth-child(4) {
+    width: 210%;
+    height: 210%;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btnEmpresas span:nth-child(5) {
+    width: 240%;
+    height: 240%;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.btnEmpresas .heroSlide {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnEmpresas .slick-track {
+    transition: .5s;
+    display: flex;
+    align-items: center;
 }

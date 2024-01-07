@@ -6,11 +6,22 @@ import { globalVar } from '../../data/consts'
 export default function NavBar() {
 
   const [state, setState] = useState<boolean>(false)
+  const [scrool, setScrool] = useState<boolean>(false)
+
+  function handleScroll() {
+    if (window.scrollY > 0) {
+      setScrool(true)
+    } else {
+      setScrool(false)
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll);
 
   return (
-    <nav className={`navBar ${state ? "active" : null}`} >
+    <nav className={`navBar ${state ? "active" : null} ${scrool ? "scrolled" : null}`} >
       <img src={logo} alt="logo" />
-      <div className='links' onMouseEnter={() => {setState(true)}} onMouseLeave={() => {setState(false)}}>
+      <div className='links' onMouseEnter={() => { setState(true) }} onMouseLeave={() => { setState(false) }}>
         <div>
           <a className="title" href="/about">Sobre</a>
           <span />
@@ -36,6 +47,7 @@ export default function NavBar() {
           <a className="subTitle" href="/services">Cibersegurança</a>
           <a className="subTitle" href="/services">Gamming</a>
         </div>
+        <div></div>
         <div>
           <a className="title" href="/contacts">Contactos</a>
           <span />

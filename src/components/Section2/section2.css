@@ -13,12 +13,12 @@
     width: 100px;
     position: absolute;
     bottom: 5%;
-    left: 15%;
+    left: 25%;
 }
 
 .section2 img:nth-child(2) {
     bottom: unset;
     top: 5%;
     left: unset;
-    right: 15%;
+    right: 25%;
 }

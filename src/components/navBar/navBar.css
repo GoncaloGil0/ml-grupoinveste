@@ -5,8 +5,8 @@
     display: grid;
     grid-template-columns: 25% 75%;
     width: 100%;
-    padding: 20px 5%;
-    background-color: white;
+    padding: 15px 5%;
+    background-color: rgba(255, 255, 255, 0.50);
     gap: 10px;
     align-items: start;
     justify-content: left;
@@ -23,16 +23,22 @@
 .navBar.active {
     transition: .5s;
     max-height: 100vh;
+    background-color: white;
+}
+
+.navBar.scrolled {
+    transition: .5s;
+    background-color: white;
 }
 
 .navBar .links {
     height: auto;
     display: grid;
-    grid-template-columns: 15% 15% 15% auto 5%;
+    grid-template-columns: 15% 15% 15% 50px auto;
     align-items: start;
     justify-content: start;
     width: 100%;
-    padding: 0 5%;
+    padding: 0 0 0 5%;
     gap: 50px;
     cursor: pointer;
 }
@@ -41,7 +47,7 @@
     height: 30px;
     width: auto;
     aspect-ratio: initial;
-    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .navBar .links div {
@@ -52,13 +58,33 @@
     gap: 15px;
 }
 
+.navBar .links div:nth-child(5) {
+    align-items: end;
+    justify-content: right;
+    text-align: right;
+}
+
+.navBar .links div:nth-child(5) .title {
+    transition: .5s;
+    text-align: right;
+    border: 2px solid black;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+}
+
+.navBar:hover .links div:nth-child(5) .title {
+    border: 2px solid transparent;
+}
+
 .navBar .links .title {
     font-size: large;
     font-weight: bold;
     position: relative;
-    margin-bottom: 10px;
     text-align: center;
     width: 100%;
+    padding: 5px;
 }
 
 .navBar .links div span {
@@ -66,6 +92,10 @@
     border-radius: 4px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navBar .links div:nth-child(5) span {
+    width: 50%;
 }
 
 .navBar .links .subTitle {
