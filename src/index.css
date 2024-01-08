@@ -16,8 +16,19 @@ body {
     scroll-behavior: smooth;
 }
 
+main {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    min-height: 100vh;
+}
+
 h1 {
-    font-size: 46px;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
 }
 
 h2 {

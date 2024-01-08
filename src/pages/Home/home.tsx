@@ -1,7 +1,7 @@
 import { BiChevronRight } from "react-icons/bi";
-import { Hero } from "../components/Heros";
-import { Section } from "../components/Section";
-import { Section_2 } from "../components/Section2";
+import { Hero } from "../../components/Heros";
+import { Section } from "../../components/Section";
+import { Section_2 } from "../../components/Section2";
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -9,7 +9,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import './home.css'
 import { Link } from "react-router-dom";
-import BtnScrool from "../components/animation/BtnScrool/btnScrool";
+import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
 
 export default function Home() {
 
@@ -137,11 +137,11 @@ export default function Home() {
 
 
   return (
-    <div className="home h-auto w-screen flex flex-col gap-[150px]">
+    <main className="home">
 
       <Hero.Root img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fblack-and-white-architecture-perspective-building-skyscraper-line-facade-monochrome-tower-block-buildings-windows-symmetry-headquarters-metropolis-low-angle-shot-monochrome-photography-window-covering-954067.jpg&f=1&nofb=1&ipt=2b026c6aa1177debf1c42ab4d8ffa463be628bb3a934e1dd71d88cef58d55d2c&ipo=images">
-        <Hero.Title title="Grupo Investe" className="font-bold text-[60px] text-grupo-2" />
-        <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit. " className="font-medium text-[30px] text-grupo-2" />
+        <Hero.Title title="Grupo Investe" />
+        <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit. " />
         <BtnScrool message="See more..." href={"/#about"} color="white" />
         <div className="btnEmpresas">
           <span />
@@ -193,10 +193,10 @@ export default function Home() {
         {imagesLogosGrupo}
       </Slider>
 
-      <Section_2.Root id="click" >
+      {/*<Section_2.Root id="click" >
         <Section_2.Title title="Deseja falar connosco?" />
         <Section_2.Button2 to={"/"} desc="Deseja falar connosco?" />
-      </Section_2.Root>
-    </div>
+      </Section_2.Root>*/}
+    </main>
   )
 }

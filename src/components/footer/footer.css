@@ -11,13 +11,42 @@
 .footer .line {
     width: 100%;
     display: grid;
-    grid-template-columns: 20% auto auto auto;
+    grid-template-columns: repeat(4, calc(100% / 4));
     gap: 20px;
+    padding-right: 5%;
 }
 
 .footer .flex :is(a, p) {
     font-size: 14px;
     font-weight: lighter;
+}
+
+.footer a::before {
+    transition: .5s;
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 3px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.footer a:hover:before {
+    height: 100%;
+}
+
+.footer a:hover {
+    padding-left: 10px;
+}
+
+.footer :is(.flex, .logo) a:hover {
+    padding-left: 0px;
+}
+
+.footer :is(.flex, .logo) a::before {
+    content: none;
 }
 
 .footer .flex {
@@ -33,6 +62,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
 }
 
 .footer div img {
@@ -43,6 +73,7 @@
     font-weight: bold;
     position: relative;
     margin-bottom: 15px;
+    width: fit-content;
 }
 
 .footer div h6::before {
@@ -58,4 +89,11 @@
 
 .footer div a {
     font-size: 15px;
+    position: relative;
+    transition: .5s;
+    width: fit-content;
+}
+
+.footer .flex a {
+    width: fit-content;
 }

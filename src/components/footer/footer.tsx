@@ -5,8 +5,8 @@ import { globalVar } from '../../data/consts'
 export default function Footer() {
   return (
     <footer className="footer shadow-[0_35px_50px_10px_rgba(0,0,0,0.3)]">
-      <div className='line'> 
-        <div>
+      <div className='line'>
+        <div className='logo'>
           <a href="/"><img src={logo} alt="" /></a>
         </div>
         <div>
@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
       <div className='flex'>
         <p>Direitos reservados Grupo Investe | 2024</p>
-        <a>Documentos Legais</a>
+        <a href='/'>Documentos Legais</a>
       </div>
     </footer>
   )

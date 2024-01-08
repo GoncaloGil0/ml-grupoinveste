@@ -7,5 +7,5 @@ interface HeroDescriptionProps extends HTMLAttributes<HTMLHeadingElement> {
 export default function HeroDescription(props: HeroDescriptionProps) {
   const { desc, ...headingProps } = props;
 
-  return <h5 {...headingProps}>{desc}</h5>;
+  return <h5 className="font-medium text-[30px] text-grupo-2"  {...headingProps}>{desc}</h5>;
 }

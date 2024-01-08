@@ -1,0 +1,84 @@
+.about .aboutHeroText {
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .goals {
+    padding: 0 15%;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.about .goals .textsGoals {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 90%;
+}
+
+.about .goals .images {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 20px;
+}
+
+.about .goals .images img {
+    background-color: rgba(0, 0, 0, 0.262);
+    max-height: 100px;
+}
+
+.about .team {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .team .members {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, calc(100% / 5));
+    gap: 10px;
+}
+
+.about .team .members img {
+    aspect-ratio: 10/12;
+    background-color: #ccc;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about .team .members figure {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 200px;
+    max-width: 230px;
+    margin-top: 80px;
+    align-self: center;
+}
+
+.about .team .members figure figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.about .team .members figure figcaption p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about .team .members figure figcaption p:nth-child(2) {
+    font-size: 15px;
+}

@@ -7,5 +7,5 @@ interface HeroTitleProps extends HTMLAttributes<HTMLHeadingElement> {
 export default function HeroTitle(props: HeroTitleProps) {
   const { title, ...headingProps } = props;
 
-  return <h1 {...headingProps}>{title}</h1>;
+  return <h1 className="font-bold text-[60px] text-grupo-2" {...headingProps}>{title}</h1>;
 }

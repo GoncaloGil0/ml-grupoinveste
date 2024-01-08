@@ -3,6 +3,10 @@
     grid-template-columns: 50% 50%;
 }
 
+.sectionRoot :is(h1, p, h5) {
+    color: black;
+}
+
 .sectionRoot .img {
     display: flex;
     background-color: rgba(0, 0, 0, 0.0);
@@ -14,7 +18,7 @@
 .sectionRoot .img img {
     width: 100%;
     border-radius: 0 4px 4px 0;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: #ccc;
     min-height: 200px;
     display: flex;
     align-items: center;

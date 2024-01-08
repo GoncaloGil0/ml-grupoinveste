@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.section2 :is(p, h1, h3) {
+    color: black;
+}
+
 .section2 img {
     width: 100px;
     position: absolute;
