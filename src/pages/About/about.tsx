@@ -23,14 +23,21 @@ export default function About() {
                 <BtnScrool message="" href={"/about#mission"} color="white" />
             </Hero.Root>
 
+            <div className="historia">
+                <h1>A nossa historia</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0c%2Fc5%2Fbb%2F0cc5bbf9980c4bb319994face7393b4f.jpg&f=1&nofb=1&ipt=0342cc2831417f3138ffa7e4c21a5f9d0f8715fb74bdb08422e21d2481eff41c&ipo=images" alt="" />
+            </div>
+
             <Section.Root id="mission" img="" alt="Era Bom uma imagem de equipa toda">
                 <Section.Title title="Missão" />
                 <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
                 <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
                 <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
             </Section.Root>
-
-
 
             <div className="goals" id="goals">
                 <div className="textsGoals">
@@ -40,11 +47,11 @@ export default function About() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                 </div>
                 <div className="images">
-                    <img src="https://media.notcybersec.com/website/Company/partners/blendbyte.svg" alt="" />
-                    <img src="https://media.notcybersec.com/website/Company/partners/blendbyte.svg" alt="" />
-                    <img src="https://media.notcybersec.com/website/Company/partners/blendbyte.svg" alt="" />
-                    <img src="https://media.notcybersec.com/website/Company/partners/blendbyte.svg" alt="" />
-                    <img src="https://media.notcybersec.com/website/Company/partners/blendbyte.svg" alt="" />
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images" alt="" />
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images" alt="" />
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images" alt="" />
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images" alt="" />
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images" alt="" />
                 </div>
             </div>
 

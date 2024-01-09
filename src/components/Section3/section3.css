@@ -1,0 +1,71 @@
+.section3Root {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    padding: 0 15%;
+    gap: 50px;
+    min-height: 50vh;
+}
+
+.section3Root :is(h1, p, h5) {
+    color: black;
+}
+
+.section3Root h1 {
+    margin-top: 30px;
+}
+
+.section3Root h1:nth-child(1) {
+    margin-top: 0px;
+}
+
+.section3Root .img {
+    padding: 50px;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.section3Root .img span {
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1/1;
+    height: auto;
+    border: 7px solid black;
+}
+
+.section3Root .img span:nth-child(2) {
+    bottom: 0;
+    right: 0;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 10px;
+}
+
+.section3Root .img span:nth-child(1) {
+    top: 0;
+    right: 0;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+}
+
+.section3Root .img img {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3Root .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}

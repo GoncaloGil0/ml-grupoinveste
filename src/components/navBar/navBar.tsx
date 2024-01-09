@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import './navBar.css'
 import { globalVar } from '../../data/consts'
+import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
-
+  const { t } = useTranslation();
   const [state, setState] = useState<boolean>(false)
   const [scrool, setScrool] = useState<boolean>(false)
 
@@ -38,28 +39,29 @@ export default function NavBar() {
         </svg>
       </a>
       <div className='col center'>
-        <a className="title" href="/about">Sobre</a>
-        <a href="/about#mission">Missão</a>
-        <a href="/about#goals">Objetivos</a>
-        <a href="/about#team">Equipa</a>
+        <a className="title" href="/about">{t('navBar.about')}</a>
+        <a href="/about#mission">{t('navBar.mission')}</a>
+        <a href="/about#goals">{t('navBar.goals')}</a>
+        <a href="/about#team">{t('navBar.team')}</a>
       </div>
       <div className='col center'>
-        <a className="title" href="/companies">Empresas</a>
+        <a className="title" href="/companies">{t('navBar.companies')}</a>
         <a href="/invest2030">Invest2030</a>
         <a href="/rootkey">ROOTKey</a>
+        <a href="/safevanguard">Safe Vanguard</a>
         <a href="/blendbyte">Blendbyte</a>
         <a href="/esportzy">Esportzy</a>
-        <a href="/safevanguard">Safe Vanguard</a>
       </div>
       <div className='col center'>
-        <a className="title" href="/services">Oferta</a>
-        <a href="/services">Consultoria</a>
-        <a href="/services">Maketing</a>
-        <a href="/services">Cibersegurança</a>
-        <a href="/services">Gamming</a>
+        <a className="title" href="/services">{t('navBar.offer')}</a>
+        <a href="/services">{t('navBar.offer2')}</a>
+        <a href="/services">{t('navBar.offer3')}</a>
+        <a href="/networking">{t('navBar.offer4')}</a>
+        <a href="/services">{t('navBar.offer5')}</a>
+        <a href="/services">{t('navBar.offer1')}</a>
       </div>
       <div className='col contact'>
-        <a className="title" href="/contacts">Contactos</a>
+        <a className="title" href="/contacts">{t('navBar.contacts')}</a>
         <a href={`tel:${globalVar.numeroTlmLisboa}`}>{globalVar.numeroTlmLisboa}</a>
         <a href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
         <a href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>

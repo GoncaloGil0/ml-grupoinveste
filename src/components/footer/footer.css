@@ -1,18 +1,18 @@
 .footer {
     width: 100%;
-    padding: 50px 5%;
+    padding: 150px 5%;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 100px;
+    background-color: white;
 }
 
 .footer .line {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, calc(100% / 4));
-    gap: 20px;
+    grid-template-columns: repeat(5, calc(100% / 5));
+    gap: 0px;
     padding-right: 5%;
 }
 
@@ -62,11 +62,23 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    width: 90%;
 }
 
 .footer div img {
     max-width: 80%;
+}
+
+.footer .social {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.footer .social svg {
+    width: 25px;
+    height: auto;
 }
 
 .footer div h6 {
@@ -74,6 +86,10 @@
     position: relative;
     margin-bottom: 15px;
     width: fit-content;
+}
+
+.footer div .redes {
+    margin-top: 20px;
 }
 
 .footer div h6::before {
@@ -96,4 +112,13 @@
 
 .footer .flex a {
     width: fit-content;
+}
+
+.footer select {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+    padding: 12px 10px;
+    color: white;
+    cursor: pointer;
 }

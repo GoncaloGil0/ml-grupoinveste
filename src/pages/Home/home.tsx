@@ -1,7 +1,6 @@
 import { BiChevronRight } from "react-icons/bi";
 import { Hero } from "../../components/Heros";
 import { Section } from "../../components/Section";
-import { Section_2 } from "../../components/Section2";
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -193,10 +192,6 @@ export default function Home() {
         {imagesLogosGrupo}
       </Slider>
 
-      {/*<Section_2.Root id="click" >
-        <Section_2.Title title="Deseja falar connosco?" />
-        <Section_2.Button2 to={"/"} desc="Deseja falar connosco?" />
-      </Section_2.Root>*/}
     </main>
   )
 }
