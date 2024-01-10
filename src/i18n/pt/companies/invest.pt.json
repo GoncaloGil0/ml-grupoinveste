@@ -1,0 +1,40 @@
+{
+    "invest2030": {
+        "name": "Invest2030",
+        "tags": [
+            "Investimento", "I&D", "Consultoria"
+        ],
+        "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
+        "section1": {
+            "title1": "Quem somos?",
+            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "title2": "Missão",
+            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+        },
+        "section2": [{
+                "title": "Consultoria Financeira",
+                "text": [
+                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                ]
+            },
+            {
+                "title": "Consultoria Risco",
+                "text": [
+                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                ]
+            },
+            {
+                "title": "Consultoria Investimento",
+                "text": [
+                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                ]
+            }
+        ],
+        "section3": {
+            "title": "Envia-nos uma mensagem!",
+            "text": "Clica aqui!"
+        }
+    }
+}

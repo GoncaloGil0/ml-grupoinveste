@@ -11,6 +11,18 @@ import aboutPt from './pt/about.pt.json'
 import homeEn from './en/home.en.json'
 import homePt from './pt/home.pt.json'
 
+import bbEn from './en/companies/bb.en.json'
+import esportzyEn from './en/companies/esportzy.en.json'
+import investEn from './en/companies/invest.en.json'
+import rootkeyEn from './en/companies/rootkey.en.json'
+import safeEn from './en/companies/safe.en.json'
+
+import bbPt from './pt/companies/bb.pt.json'
+import esportzyPt from './pt/companies/esportzy.pt.json'
+import investPt from './pt/companies/invest.pt.json'
+import rootkeyPt from './pt/companies/rootkey.pt.json'
+import safePt from './pt/companies/safe.pt.json'
+
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -19,7 +31,12 @@ i18n.use(initReactI18next).init({
         ...footerEn,
         ...navBarEn,
         ...aboutEn,
-        ...homeEn
+        ...homeEn,
+        ...bbEn,
+        ...esportzyEn,
+        ...investEn,
+        ...rootkeyEn,
+        ...safeEn
       }
     },
     pt: {
@@ -27,7 +44,12 @@ i18n.use(initReactI18next).init({
         ...footerPt,
         ...navBarPt,
         ...aboutPt,
-        ...homePt
+        ...homePt,
+        ...bbPt,
+        ...esportzyPt,
+        ...investPt,
+        ...rootkeyPt,
+        ...safePt
       }
     },
   },

@@ -1,5 +1,9 @@
+.empresa {
+    gap: 150px;
+}
+
 .empresa .empresaHero {
-    height: 70vh;
+    height: 60vh;
 }
 
 .empresa .empresaHero img {
@@ -9,14 +13,14 @@
 .empresa .empresaHero .heroComponent {
     width: 80%;
     min-height: 20%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
     z-index: 20;
     position: absolute;
-    top: 60%;
+    top: 37%;
     border: 10%;
     left: 10%;
-    padding: 30px 60px;
-    border-radius: 60px;
+    padding: 30px 50px;
+    border-radius: 30px;
     --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -24,7 +28,8 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
+    backdrop-filter: blur(8px);
 }
 
 .empresa .empresaHero .heroComponent h2 {
@@ -33,6 +38,10 @@
     align-items: start;
     justify-content: start;
     gap: 10px;
+}
+
+.empresa .empresaHero .heroComponent :is(h2, h6, p) {
+    color: white;
 }
 
 .empresa .empresaHero .heroComponent h2 svg {
@@ -49,27 +58,42 @@
 }
 
 .empresa .empresaHero .heroComponent .tags p {
-    padding: 2px 15px;
-    border: 1px solid;
-    border-radius: 15px;
+    padding: 5px 17px;
+    border: 2px solid;
+    border-radius: 20px;
     font-weight: bold;
     font-size: 15px;
 }
 
 .empresa .oferta {
-    width: 80vw;
+    width: 100vw;
     height: auto;
-    margin: 0 auto;
+    padding: 0px 10%;
     display: grid;
     grid-template-columns: repeat(3, calc(100% / 3));
     gap: 0;
     padding-bottom: 30px;
-    align-items: start;
+    padding-top: 30px;
+    align-items: center;
     row-gap: 50px;
+    min-height: 40vh;
+    position: relative;
+    background: transparent;
+}
+
+.empresa .oferta .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.5);
+    filter: brightness(.8);
 }
 
 .empresa .oferta .col {
-    transition: .3s;
+    z-index: 3;
+    transition: .5s;
     width: 90%;
     background-color: white;
     border-radius: 20px;
@@ -84,6 +108,7 @@
     height: 100%;
     max-height: 90px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .empresa .oferta .col:hover {
