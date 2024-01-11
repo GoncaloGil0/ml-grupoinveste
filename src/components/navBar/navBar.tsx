@@ -53,15 +53,15 @@ export default function NavBar() {
         <a href="/esportzy">Esportzy</a>
       </div>
       <div className='col center'>
-        <a className="title" href="/services">{t('navBar.offer')}</a>
-        <a href="/services">{t('navBar.offer2')}</a>
-        <a href="/services">{t('navBar.offer3')}</a>
-        <a href="/networking">{t('navBar.offer4')}</a>
-        <a href="/services">{t('navBar.offer5')}</a>
-        <a href="/services">{t('navBar.offer1')}</a>
+        <a className="title" href="/offer">{t('navBar.offer')}</a>
+        <a href="/offer#consulting">{t('navBar.offer2')}</a>
+        <a href="/offer#cybersecurity">{t('navBar.offer3')}</a>
+        <a href="/offer#networking">{t('navBar.offer4')}</a>
+        <a href="/offer#marketing">{t('navBar.offer5')}</a>
+        <a href="/offer#gamming">{t('navBar.offer1')}</a>
       </div>
       <div className='col contact'>
-        <a className="title" href="/contacts">{t('navBar.contacts')}</a>
+        <a className="title" >{t('navBar.contacts')}</a>
         <a href={`tel:${globalVar.numeroTlmLisboa}`}>{globalVar.numeroTlmLisboa}</a>
         <a href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
         <a href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>

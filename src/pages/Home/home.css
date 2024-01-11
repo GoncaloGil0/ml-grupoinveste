@@ -84,9 +84,9 @@
 .slide .slideDivs {
     transition: .5s;
     background-color: rgba(0, 0, 0, 0.85);
-    width: 100%;
+    width: 90%;
     height: 50%;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 20px;
     color: white;
     display: flex;
@@ -96,19 +96,29 @@
     gap: 20px;
 }
 
+.slide .slideDivs :is(p, a) {
+    color: #ccc;
+    font-size: medium;
+}
+
 .slide .slideDivs a {
+    transition: .5s;
     color: white;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     justify-content: left;
     margin-top: auto;
     margin-bottom: 0;
 }
 
-.slide .slideDivs p {
-    color: #ccc;
-    font-size: medium;
+.slide .slideDivs a:hover {
+    gap: 20px;
+}
+
+.slide .slideDivs h4 {
+    color: white;
+    font-weight: bold;
 }
 
 .slide .slideDivs img {

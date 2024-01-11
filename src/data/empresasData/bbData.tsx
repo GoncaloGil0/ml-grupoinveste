@@ -1,7 +1,7 @@
 import { empresaDataInterface } from "../../pages/Empresa/empresa";
 
 export const bbData: empresaDataInterface = {
-    "icon":"",
+    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
     "color": "rgba(254, 112, 35, 1)",
     "link": "/Blendbyte",
     "header": {

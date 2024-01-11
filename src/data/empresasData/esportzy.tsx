@@ -3,7 +3,8 @@ import { empresaDataInterface } from "../../pages/Empresa/empresa";
 export const esportzyData: empresaDataInterface = {
     "color": "rgba(0, 255, 166, 1)",
     "link": "/esportzy",
-    "icon":"",
+    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
+
     "header": {
         "website": "https://esportzy.pt",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",

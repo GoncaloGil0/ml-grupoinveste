@@ -7,10 +7,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import './home.css'
-import { Link } from "react-router-dom";
 import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
+import { dataEmpresas } from "../../data/dataEmpresas";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
 
   const multipleRowsSettings = {
     dots: false,
@@ -66,28 +68,6 @@ export default function Home() {
     ],
   };
 
-  const imagesLogosGrupo = Array.from({ length: 5 }, (_, index) => {
-    let imageUrl;
-    if (index % 3 === 0) {
-      imageUrl = 'https://media.notcybersec.com/website/Company/partners/polygonid.svg';
-    } else if (index % 3 === 1) {
-      imageUrl = 'https://d0.awsstatic.com/logos/powered-by-aws-white.png';
-    } else {
-      imageUrl = 'https://media.notcybersec.com/website/Company/partners/blendbyte.svg';
-    }
-
-    return (
-      <div key={index} >
-        <div className={`slideDivs shadow-lg`}>
-          <img src={imageUrl} alt="" />
-          <h6>Securing Data Validity And Authenticity</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla.</p>
-          <Link to="/">Get to know more <BiChevronRight /></Link>
-        </div>
-      </div>
-    );
-  });
-
   const imagesLogosClientes = Array.from({ length: 25 }, (_, index) => {
     let imageUrl;
     if (index % 3 === 0) {
@@ -111,30 +91,6 @@ export default function Home() {
     );
   });
 
-  const heroLogo = Array.from({ length: 25 }, (_, index) => {
-    let imageUrl;
-    if (index % 3 === 0) {
-      imageUrl = 'https://invest2030.pt/assets/logo_branco.png';
-    } else if (index % 3 === 1) {
-      imageUrl = 'https://d0.awsstatic.com/logos/powered-by-aws-white.png';
-    } else {
-      imageUrl = 'https://media.notcybersec.com/website/Company/partners/blendbyte.svg';
-    }
-
-    return (
-      <div key={index}>
-        <div className="logo w-[80%] ml-[10%]">
-          <img
-            className="w-full h-auto items-center justify-center"
-            src={imageUrl}
-            alt="logo"
-          />
-        </div>
-      </div>
-    );
-  });
-
-
   return (
     <main className="home">
 
@@ -150,7 +106,19 @@ export default function Home() {
           <span />
           <div className="wrap">
             <Slider  {...heroSettings} rtl={true} arrows={false}>
-              {heroLogo}
+              {dataEmpresas.map((data, index) => (
+                <div key={index}>
+                  <div className="logo w-[80%] ml-[10%]">
+                    <a href={data.link}>
+                      <img
+                        className="w-full h-auto items-center justify-center"
+                        src={data.section1.img}
+                        alt={data.header.name}
+                      />
+                    </a>
+                  </div>
+                </div>
+              ))}
             </Slider>
           </div>
         </div>
@@ -189,9 +157,20 @@ export default function Home() {
       </div>
 
       <Slider className={'slide '} {...sliderEmpresasGrupo}>
-        {imagesLogosGrupo}
-      </Slider>
+        {dataEmpresas.map((data, index) => (
+          <div key={index} >
+            <a href={data.link}>
+              <div className={`slideDivs`}>
+                <img src={data.section1.img} alt={data.header.name} />
+                <h4>{t(data.header.name)}</h4>
+                <p>{t(data.header.slogan)}</p>
+                <a href={data.header.website}>{t('Website')}<BiChevronRight /></a>
+              </div>
+          </a>
+          </div>
+        ))}
+    </Slider>
 
-    </main>
+    </main >
   )
 }

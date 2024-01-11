@@ -3,7 +3,8 @@ import { empresaDataInterface } from "../../pages/Empresa/empresa";
 export const investData: empresaDataInterface = {
     "color": "rgba(77, 175, 88, 1)",
     "link": "/invest2030",
-    "icon":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images",
+    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
+
     "header": {
         "website": "https://invest2030.pt",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",

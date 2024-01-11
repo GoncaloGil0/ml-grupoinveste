@@ -3,7 +3,7 @@ import { Hero } from "../../components/Heros";
 import { empresaDataInterface } from "./empresa";
 import './empresaHome.css'
 
-interface EmpresaHomeProps {
+export interface EmpresaHomeProps {
     data: empresaDataInterface[]
 }
 
@@ -17,6 +17,7 @@ export default function EmpresaHome(props: EmpresaHomeProps) {
                 textClassName="companiesText"
             >
                 <Hero.Title title="Conheça as nossas empresas" />
+
                 <div className="empresaHomeGrid ">
                     {
                         props.data.map((data, index) => (

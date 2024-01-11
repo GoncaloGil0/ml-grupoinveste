@@ -1,9 +1,9 @@
 import { empresaDataInterface } from "../../pages/Empresa/empresa";
 
 export const safeData: empresaDataInterface = {
-    "color": "rgba(0, 128, 0, 1)",
+    "color": "rgba(193, 27, 59,1)",
     "link": "/safevanguard",
-    "icon":"",
+    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
     "header": {
         "website": "https://safevanguad.com",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",
