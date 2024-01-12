@@ -58,7 +58,7 @@ export default function NavBar() {
         <a href="/offer#cybersecurity">{t('navBar.offer3')}</a>
         <a href="/offer#networking">{t('navBar.offer4')}</a>
         <a href="/offer#marketing">{t('navBar.offer5')}</a>
-        <a href="/offer#gamming">{t('navBar.offer1')}</a>
+        <a href="/offer#gaming">{t('navBar.offer1')}</a>
       </div>
       <div className='col contact'>
         <a className="title" >{t('navBar.contacts')}</a>

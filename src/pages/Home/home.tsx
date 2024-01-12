@@ -1,3 +1,4 @@
+import { MdKeyboardArrowRight } from "react-icons/md"; 
 import { BiChevronRight } from "react-icons/bi";
 import { Hero } from "../../components/Heros";
 import { Section } from "../../components/Section";
@@ -129,6 +130,7 @@ export default function Home() {
         <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
         <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
         <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
+        <Section.Button icone={MdKeyboardArrowRight} className="flex items-center justify-start gap-1 hover:gap-3 hover:text-xl font-bold rounded-2xl px-2 py-5 transition-all duration-500" to={"/about"} desc="Saber mais" />
       </Section.Root>
 
       <div className="trusted">
@@ -166,10 +168,10 @@ export default function Home() {
                 <p>{t(data.header.slogan)}</p>
                 <a href={data.header.website}>{t('Website')}<BiChevronRight /></a>
               </div>
-          </a>
+            </a>
           </div>
         ))}
-    </Slider>
+      </Slider>
 
     </main >
   )

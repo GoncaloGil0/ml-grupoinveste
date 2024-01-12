@@ -49,7 +49,9 @@ export default function About() {
                 </div>
                 <div className="images">
                     {dataEmpresas.map((data, index) => (
+                        <a href={data.link}>
                         <img key={index} src={data.section1.img} alt={data.header.name} />
+                        </a>
                     ))}
                 </div>
             </div>
