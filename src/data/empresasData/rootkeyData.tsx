@@ -6,7 +6,7 @@ export const rootkeyData: empresaDataInterface = {
     "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
     "header": {
         "website": "https://rootkey.ai",
-        "banner": "https://www.invest2030.pt/images/cover1.jpg",
+        "banner": "https://media.notcybersec.com/website/Home/homeSection1.png",
         "tags": [
             "rootkey.tags.0", "rootkey.tags.1", "rootkey.tags.2",
         ],
@@ -26,7 +26,7 @@ export const rootkeyData: empresaDataInterface = {
         {
             "title": "rootkey.section2.0.title",
             "text": [
-                "rootkey.section2.0.text.0", "rootkey.section2.0.text.1", "rootkey.section2.0.text.2"
+                "rootkey.section2.0.text.0", "rootkey.section2.0.text.1", "rootkey.section2.0.text.2", "rootkey.section2.0.text.3"
             ]
         },
         {
@@ -38,7 +38,13 @@ export const rootkeyData: empresaDataInterface = {
         {
             "title": "rootkey.section2.2.title",
             "text": [
-                "rootkey.section2.2.text.0", "rootkey.section2.2.text.1", "rootkey.section2.2.text.2"
+                "rootkey.section2.2.text.0", "rootkey.section2.2.text.1"
+            ]
+        },
+        {
+            "title": "rootkey.section2.3.title",
+            "text": [
+                "rootkey.section2.3.text.0", "rootkey.section2.3.text.1", "rootkey.section2.3.text.2"
             ]
         }
     ],

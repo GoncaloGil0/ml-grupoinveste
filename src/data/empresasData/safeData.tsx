@@ -5,7 +5,7 @@ export const safeData: empresaDataInterface = {
     "link": "/safevanguard",
     "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
     "header": {
-        "website": "https://safevanguad.com",
+        "website": "https://safevanguard.com/",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",
         "tags": [
             "safe.tags.0", "safe.tags.1", "safe.tags.2",

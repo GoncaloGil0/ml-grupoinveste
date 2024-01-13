@@ -166,7 +166,7 @@ export default function Home() {
                 <img src={data.section1.img} alt={data.header.name} />
                 <h4>{t(data.header.name)}</h4>
                 <p>{t(data.header.slogan)}</p>
-                <a href={data.header.website}>{t('Website')}<BiChevronRight /></a>
+                <a target="_blank" href={data.header.website}>{t('Website')}<BiChevronRight /></a>
               </div>
             </a>
           </div>
