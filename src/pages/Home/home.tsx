@@ -1,4 +1,4 @@
-import { MdKeyboardArrowRight } from "react-icons/md"; 
+import { MdKeyboardArrowRight } from "react-icons/md";
 import { BiChevronRight } from "react-icons/bi";
 import { Hero } from "../../components/Heros";
 import { Section } from "../../components/Section";
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Slider className={'slide '} {...sliderEmpresasGrupo}>
+      <Slider className='slide' {...sliderEmpresasGrupo}>
         {dataEmpresas.map((data, index) => (
           <div key={index} >
             <a href={data.link}>

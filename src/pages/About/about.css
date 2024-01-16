@@ -114,3 +114,43 @@
 .about .team .members figure figcaption p:nth-child(2) {
     font-size: 15px;
 }
+
+@media screen and (max-width: 600px) {
+    .about .historia :is(h1, p) {
+        max-width: 100%;
+    }
+    .about .historia img {
+        height: 100%;
+        width: auto;
+    }
+    .about .goals {
+        padding: 0;
+        grid-template-columns: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .goals .images {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .about .quote h4 {
+        font-size: 20px;
+    }
+    .about .quote h6 {
+        font-size: 15px;
+    }
+    .about .team .members {
+        grid-template-columns: repeat(2, calc(100% / 2));
+    }
+    .about .team .members figcaption p {
+        font-size: 15px;
+    }
+    .about .team h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .about .team .members figure {
+        margin-top: 30px;
+        min-width: unset;
+    }
+}

@@ -2,39 +2,51 @@
     "rootkey": {
         "name": "ROOTKey",
         "tags": [
-            "Marketing", "Web Development", "Social Media"
+            "Blockchain", "Cibersegurança", "Identidade Digital"
         ],
-        "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
+        "slogan": "Garantindo a Validade e Autenticidade dos Dados",
         "section1": {
             "title1": "Quem somos?",
-            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "text1": "A ROOTKey é uma empresa focada na criação e implementação de produtos e soluções de segurança digital. Com produtos de processamento de dados descentralizados, validação e autenticação de informações e gestão e criação de identidades digitais, tudo em ecossistemas de confiança zero.",
+            "text2": "O parceiro ideal se valoriza os dados e a identidade, seja sua ou de seus clientes, e deseja adicionar outra camada de segurança e confiança à realidade do seu negócio.",
             "title2": "Missão",
-            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+            "text3": "Uma empresa que está revolucionando a proteção de informações e dados do cliente, a ROOTKey opera em um cenário marcado pela crescente frequência de ciberataques aos sistemas corporativos.",
+            "text4": "Nesse ambiente, onde as informações estão cada vez mais vulneráveis, a empresa visa otimizar e automatizar os processos de validação, criação e gestão tanto dos dados de seus clientes quanto dos clientes deles."
         },
         "section2": [{
-                "title": "Consultoria Financeira",
+                "title": "A Plataforma",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Criação segura e descentralizada de dados",
+                    "Validação autônoma de dados",
+                    "Controle vitalício das informações",
+                    "Integração rápida e fácil em qualquer sistema"
                 ]
             },
             {
-                "title": "Consultoria Risco",
+                "title": "IDM",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Criação personalizada e automatizada de identidades digitais",
+                    "Autenticação e validação de IDs digitais",
+                    "Segurança autônoma com identidades descentralizadas"
                 ]
             },
             {
-                "title": "Consultoria Investimento",
+                "title": "SDS",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Compartilhamento de informações sem confiar no destinatário",
+                    "Protocolo de compartilhamento de informações usando provas de conhecimento zero"
+                ]
+            },
+            {
+                "title": "Serviços",
+                "text": [
+                    "Customização de soluções", "Soluções feitas sob medida", "Consultoria em segurança de dados"
                 ]
             }
         ],
         "section3": {
-            "title": "Envia-nos uma mensagem!",
-            "text": "Clica aqui!"
+            "title": "Redefina a confiança digital com a ROOTKey",
+            "text": "Entre em contato aqui!"
         }
     }
 }

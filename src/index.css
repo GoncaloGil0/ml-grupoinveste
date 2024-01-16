@@ -25,6 +25,7 @@ main {
     gap: 200px;
     min-height: 100vh;
     background-color: white;
+    overflow: hidden;
 }
 
 h1 {
@@ -154,4 +155,32 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        gap: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+    p,
+    a {
+        font-size: 18px;
+    }
 }

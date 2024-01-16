@@ -56,6 +56,14 @@
     margin-top: 5px;
 }
 
+.navBar div:nth-child(1) {
+    width: 87vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navBar .col {
     display: flex;
     flex-direction: column;
@@ -138,4 +146,35 @@
 .navBar .col.contact a:hover {
     transition: .5s;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .navBar {
+        max-height: auto;
+        grid-template-columns: 90%;
+        padding: 20px;
+        width: 100vw;
+    }
+    .navBar .title {
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .navBar .col.contact {
+        align-items: start;
+    }
+    .navBar .col.contact .title {
+        text-align: left;
+        border-radius: none;
+        padding: 0;
+    }
+    .navBar.active {
+        overflow-y: auto;
+    }
+    .navBar a:nth-child(1) {
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
