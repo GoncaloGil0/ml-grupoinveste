@@ -82,7 +82,6 @@
 }
 
 .about .team .members img {
-    aspect-ratio: 10/12;
     background-color: #ccc;
     width: 100%;
     align-items: center;
@@ -98,21 +97,29 @@
     max-width: 230px;
     margin-top: 80px;
     align-self: center;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .about .team .members figure figcaption {
     display: flex;
     flex-direction: column;
     gap: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    padding-top: 40px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-.about .team .members figure figcaption p:nth-child(1) {
+.about .team .members figure figcaption p {
     font-weight: bold;
+    text-transform: capitalize;
     font-size: 18px;
-}
-
-.about .team .members figure figcaption p:nth-child(2) {
-    font-size: 15px;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {

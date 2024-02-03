@@ -3,7 +3,8 @@ import { empresaDataInterface } from "../../pages/Empresa/empresa";
 export const safeData: empresaDataInterface = {
     "color": "rgba(193, 27, 59,1)",
     "link": "/safevanguard",
-    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
+    "icon":"https://media.grupoinveste.pt/emp/safevanguard/icon.png",
+    "logo_white":"https://media.grupoinveste.pt/emp/safevanguard/horizontal_white.png",
     "header": {
         "website": "https://safevanguard.com/",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",
@@ -14,7 +15,7 @@ export const safeData: empresaDataInterface = {
         "slogan": "safe.slogan"
     },
     "section1": {
-        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images",
+        "img": "https://media.grupoinveste.pt/emp/safevanguard/horizontal_black.png",
         "title_1": "safe.section1.title1",
         "text_1": "safe.section1.text1",
         "text_2": "safe.section1.text2",

@@ -1,7 +1,8 @@
 import { empresaDataInterface } from "../../pages/Empresa/empresa";
 
 export const bbData: empresaDataInterface = {
-    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
+    "icon":"https://media.grupoinveste.pt/emp/blendbyte/icon.png",
+    "logo_white":"https://media.grupoinveste.pt/emp/blendbyte/horizontal_white.png",
     "color": "rgba(254, 112, 35, 1)",
     "link": "/Blendbyte",
     "header": {
@@ -14,7 +15,7 @@ export const bbData: empresaDataInterface = {
         "slogan": "blendbyte.slogan"
     },
     "section1": {
-        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images",
+        "img": "https://media.grupoinveste.pt/emp/blendbyte/horizontal_black.png",
         "title_1":"blendbyte.section1.title1",
         "text_1":"blendbyte.section1.text1",
         "text_2":"blendbyte.section1.text2",

@@ -11,6 +11,7 @@ import './home.css'
 import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
 import { dataEmpresas } from "../../data/dataEmpresas";
 import { useTranslation } from "react-i18next";
+import { clientes } from "../../data/clientes";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -69,29 +70,6 @@ export default function Home() {
     ],
   };
 
-  const imagesLogosClientes = Array.from({ length: 25 }, (_, index) => {
-    let imageUrl;
-    if (index % 3 === 0) {
-      imageUrl = 'https://media.notcybersec.com/website/Company/partners/polygonid.svg';
-    } else if (index % 3 === 1) {
-      imageUrl = 'https://d0.awsstatic.com/logos/powered-by-aws-white.png';
-    } else {
-      imageUrl = 'https://media.notcybersec.com/website/Company/partners/blendbyte.svg';
-    }
-
-    return (
-      <div key={index}>
-        <div className="logo">
-          <img
-            className="w-40 h-auto bg-black/50 rounded p-5"
-            src={imageUrl}
-            alt="logo"
-          />
-        </div>
-      </div>
-    );
-  });
-
   return (
     <main className="home">
 
@@ -112,8 +90,8 @@ export default function Home() {
                   <div className="logo w-[80%] ml-[10%]">
                     <a href={data.link}>
                       <img
-                        className="w-full h-auto items-center justify-center"
-                        src={data.section1.img}
+                        className="max-w-full h-full items-center justify-center"
+                        src={data.logo_white}
                         alt={data.header.name}
                       />
                     </a>
@@ -141,19 +119,67 @@ export default function Home() {
         </div>
         <div className="slidesDiv">
           <Slider  {...multipleRowsSettings} rtl={true} speed={9000}>
-            {imagesLogosClientes}
+            {clientes.slice(0, 10).map((data, index) => (
+              <div key={index}>
+                <div className="logo">
+                  <img
+                    src={data}
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            ))}
           </Slider>
           <Slider  {...multipleRowsSettings} rtl={false} speed={10000}>
-            {imagesLogosClientes}
+            {clientes.slice(10, 20).map((data, index) => (
+              <div key={index}>
+                <div className="logo">
+                  <img
+                    src={data}
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            ))}
           </Slider>
           <Slider  {...multipleRowsSettings} rtl={true} speed={10500}>
-            {imagesLogosClientes}
+            {clientes.slice(20, 30).map((data, index) => (
+              <div key={index}>
+                <div className="logo">
+                  <img
+                    className="w-max-w-full-h-[50%] px-1"
+                    src={data}
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            ))}
           </Slider>
           <Slider  {...multipleRowsSettings} rtl={false} speed={10400}>
-            {imagesLogosClientes}
+            {clientes.slice(30, 40).map((data, index) => (
+              <div key={index}>
+                <div className="logo">
+                  <img
+                    className="w-max-w-full-h-[50%] px-1"
+                    src={data}
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            ))}
           </Slider>
           <Slider  {...multipleRowsSettings} rtl={true} speed={9200}>
-            {imagesLogosClientes}
+            {clientes.slice(40).map((data, index) => (
+              <div key={index}>
+                <div className="logo">
+                  <img
+                    className="w-max-w-full-h-[50%] px-1"
+                    src={data}
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            ))}
           </Slider>
         </div>
       </div>
@@ -163,7 +189,7 @@ export default function Home() {
           <div key={index} >
             <a href={data.link}>
               <div className={`slideDivs`}>
-                <img src={data.section1.img} alt={data.header.name} />
+                <img src={data.logo_white} alt={data.header.name} />
                 <h4>{t(data.header.name)}</h4>
                 <p>{t(data.header.slogan)}</p>
                 <a target="_blank" href={data.header.website}>{t('Website')}<BiChevronRight /></a>

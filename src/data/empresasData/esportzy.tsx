@@ -3,8 +3,8 @@ import { empresaDataInterface } from "../../pages/Empresa/empresa";
 export const esportzyData: empresaDataInterface = {
     "color": "rgba(0, 255, 166, 1)",
     "link": "/esportzy",
-    "icon":"https://media.notcybersec.com/logo_rootkey/png/apple_touch_120_120.png",
-
+    "icon":"https://media.grupoinveste.pt/emp/esportzy/icon.png",
+    "logo_white":"https://media.grupoinveste.pt/emp/esportzy/horizontal_white.png",
     "header": {
         "website": "https://esportzy.pt",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",
@@ -15,7 +15,7 @@ export const esportzyData: empresaDataInterface = {
         "slogan": "esportzy.slogan"
     },
     "section1": {
-        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finvest2030.pt%2Fassets%2Fimages%2Flogoi22030.png&f=1&nofb=1&ipt=66375bf4af7b0bd0df84233caf194c24d6445909225f9dfc3150e69083933a09&ipo=images",
+        "img": "https://media.grupoinveste.pt/emp/esportzy/horizontal_black.png",
         "title_1": "esportzy.section1.title1",
         "text_1": "esportzy.section1.text1",
         "text_2": "esportzy.section1.text2",

@@ -10,6 +10,7 @@ export interface empresaDataInterface {
     color: string;
     link: string;
     icon: string;
+    logo_white : string;
     header: {
         website: string;
         banner: string;

@@ -58,10 +58,17 @@
 
 .multipleRows .logo {
     transition: .5s;
-    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.multipleRows img {
+    max-width: 100%;
     max-height: 50px;
-    height: auto;
-    aspect-ratio: initial;
 }
 
 .slide .slick-list {

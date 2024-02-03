@@ -3,6 +3,7 @@ import Quote from "../../components/Quote/quote";
 import { Section } from "../../components/Section";
 import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
 import { dataEmpresas } from "../../data/dataEmpresas";
+import { rh } from "../../data/rh";
 import './about.css'
 
 export default function About() {
@@ -64,12 +65,11 @@ export default function About() {
             <div id="team" className="team">
                 <h1 className="text-center">A nossa equipa</h1>
                 <div className="members">
-                    {membersArray.map((data, index) => (
+                    {rh.map((data, index) => (
                         <figure key={index}>
-                            <img src={data.imgSrc} alt="person photo" />
+                            <img src={data.link} alt={data.nome} />
                             <figcaption>
-                                <p>{data.name}</p>
-                                <p className="italic">{data.position}</p>
+                                <p>{data.nome}</p>
                             </figcaption>
                         </figure>
                     ))}

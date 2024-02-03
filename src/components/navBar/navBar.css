@@ -56,14 +56,6 @@
     margin-top: 5px;
 }
 
-.navBar div:nth-child(1) {
-    width: 87vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .navBar .col {
     display: flex;
     flex-direction: column;
@@ -176,5 +168,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .navBar div:nth-child(1) {
+        width: 87vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
