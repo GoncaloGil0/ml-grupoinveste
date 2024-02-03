@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Hero } from '../../components/Heros'
 import './offer.css';
-
+import offer from '../../assets/bg/offer.avif'
 interface SectionRefs {
     consulting: React.MutableRefObject<HTMLElement | null>;
     cybersecurity: React.MutableRefObject<HTMLElement | null>;
@@ -61,7 +61,7 @@ export default function Offer() {
     return (
         <main className='offer'>
             <Hero.Root
-                img="https://images.unsplash.com/photo-1606305431072-2526654ff561?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                img={offer}
                 className='offerHero'
                 textClassName='textOfferHero'
              >

@@ -1,6 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
 import './footer.css'
-import logo from '../../assets/logo/Logo-Horizontal-Preto.png'
 import { globalVar } from '../../data/consts'
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
@@ -23,13 +22,19 @@ export default function Footer() {
     <footer className="footer shadow-[0_35px_50px_10px_rgba(0,0,0,0.3)]">
       <div className='line'>
         <div className='logo'>
-          <a href="/"><img src={logo} alt="" /></a>
+          <a href="/"><img src={"https://media.grupoinveste.pt/emp/grupo/horizontal_black.png"} alt="" /></a>
         </div>
         <div>
           <h6 >{t('Footer.pages')}</h6>
           <a href="/about#mission">{t('Footer.mission')}</a>
           <a href="/about#values">{t('Footer.goals')}</a>
           <a href="/about#history">{t('Footer.team')}</a>
+          <h6 >{t('Footer.Language')}</h6>
+          <select id="language" name="language" onChange={(event) => { languageHandler(event.target.value) }}>
+            <option value="" >Idioma</option>
+            <option value="en">English</option>
+            <option value="pt">Português (PT)</option>
+          </select>
         </div>
         <div>
           <h6 >{t('Footer.companies')}</h6>
@@ -45,19 +50,15 @@ export default function Footer() {
           <a href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
           <a href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>
           <a href={`mailto:${globalVar.email}`}>{globalVar.email}</a>
-        </div>
-        <div>
-          <h6 >{t('Footer.Language')}</h6>
-          <select id="language" name="language" onChange={(event) => { languageHandler(event.target.value) }}>
-            <option value="" >Idioma</option>
-            <option value="en">English</option>
-            <option value="pt">Português (PT)</option>
-          </select>
           <h6 className="redes" >{t('Footer.social')}</h6>
           <div className="social">
             <a target="_blank" href="https://www.linkedin.com/company/grupoinveste"><FaLinkedin /></a>
           </div>
-
+    
+        </div>
+        <div>
+          
+          
         </div>
       </div>
       <div className='flex'>

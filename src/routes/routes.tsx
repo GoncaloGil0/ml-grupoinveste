@@ -4,7 +4,7 @@ import About from '../pages/About/about';
 import Empresa, { empresaDataInterface } from '../pages/Empresa/empresa';
 import { dataEmpresas } from '../data/dataEmpresas';
 import { useEffect, useState } from 'react';
-import EmpresaHome from '../pages/Empresa/empresaHome';
+import EmpresaHome from '../pages/EmpresaHome/empresaHome';
 import Offer from '../pages/Offer/offer';
 
 const Routes = () => {

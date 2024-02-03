@@ -6,7 +6,7 @@ import { Section } from "../../components/Section";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import home from '../../assets/bg/home.jpg'
 import './home.css'
 import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
 import { dataEmpresas } from "../../data/dataEmpresas";
@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <main className="home">
 
-      <Hero.Root img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fblack-and-white-architecture-perspective-building-skyscraper-line-facade-monochrome-tower-block-buildings-windows-symmetry-headquarters-metropolis-low-angle-shot-monochrome-photography-window-covering-954067.jpg&f=1&nofb=1&ipt=2b026c6aa1177debf1c42ab4d8ffa463be628bb3a934e1dd71d88cef58d55d2c&ipo=images">
+      <Hero.Root img={home}>
         <Hero.Title title="Grupo Investe" />
         <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit. " />
         <BtnScrool message="See more..." href={"/#about"} color="white" />
@@ -118,11 +118,12 @@ export default function Home() {
           <p>Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
         </div>
         <div className="slidesDiv">
-          <Slider  {...multipleRowsSettings} rtl={true} speed={9000}>
+          <Slider  {...multipleRowsSettings} rtl={true}>
             {clientes.slice(0, 10).map((data, index) => (
               <div key={index}>
                 <div className="logo">
                   <img
+                    loading="lazy"
                     src={data}
                     alt="logo"
                   />
@@ -130,11 +131,12 @@ export default function Home() {
               </div>
             ))}
           </Slider>
-          <Slider  {...multipleRowsSettings} rtl={false} speed={10000}>
+          <Slider  {...multipleRowsSettings} rtl={false}>
             {clientes.slice(10, 20).map((data, index) => (
               <div key={index}>
                 <div className="logo">
                   <img
+                    loading="lazy"
                     src={data}
                     alt="logo"
                   />
@@ -142,12 +144,12 @@ export default function Home() {
               </div>
             ))}
           </Slider>
-          <Slider  {...multipleRowsSettings} rtl={true} speed={10500}>
+          <Slider  {...multipleRowsSettings} rtl={true}>
             {clientes.slice(20, 30).map((data, index) => (
               <div key={index}>
                 <div className="logo">
                   <img
-                    className="w-max-w-full-h-[50%] px-1"
+                    loading="lazy"
                     src={data}
                     alt="logo"
                   />
@@ -155,12 +157,12 @@ export default function Home() {
               </div>
             ))}
           </Slider>
-          <Slider  {...multipleRowsSettings} rtl={false} speed={10400}>
+          <Slider  {...multipleRowsSettings} rtl={false}>
             {clientes.slice(30, 40).map((data, index) => (
               <div key={index}>
                 <div className="logo">
                   <img
-                    className="w-max-w-full-h-[50%] px-1"
+                    loading="lazy"
                     src={data}
                     alt="logo"
                   />
@@ -168,12 +170,12 @@ export default function Home() {
               </div>
             ))}
           </Slider>
-          <Slider  {...multipleRowsSettings} rtl={true} speed={9200}>
+          <Slider  {...multipleRowsSettings} rtl={true}>
             {clientes.slice(40).map((data, index) => (
               <div key={index}>
                 <div className="logo">
                   <img
-                    className="w-max-w-full-h-[50%] px-1"
+                    loading="lazy"
                     src={data}
                     alt="logo"
                   />

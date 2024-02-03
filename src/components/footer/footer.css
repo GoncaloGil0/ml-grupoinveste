@@ -12,7 +12,7 @@
 .footer .line {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, calc(100% / 5));
+    grid-template-columns: repeat(4, calc(100% / 4));
     gap: 0px;
     padding-right: 5%;
 }
@@ -116,10 +116,10 @@
 }
 
 .footer select {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.80);
-    border-radius: 10px;
-    padding: 12px 10px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    padding: 8px 10px;
     color: white;
     cursor: pointer;
 }

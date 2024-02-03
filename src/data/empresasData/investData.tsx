@@ -15,7 +15,7 @@ export const investData: empresaDataInterface = {
         "slogan": "invest2030.slogan"
     },
     "section1": {
-        "img": "https://media.grupoinveste.pt/emp/invest2030/horizontal_black.png",
+        "img": "https://media.grupoinveste.pt/emp/invest2030/horizontal_color.png",
         "title_1": "invest2030.section1.title1",
         "text_1": "invest2030.section1.text1",
         "text_2": "invest2030.section1.text2",

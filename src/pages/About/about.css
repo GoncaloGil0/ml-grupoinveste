@@ -61,6 +61,8 @@
     grid-template-columns: auto auto;
     padding: 40px;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .about .goals .images img {

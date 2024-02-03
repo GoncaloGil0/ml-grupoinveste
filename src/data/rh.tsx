@@ -1,10 +1,10 @@
 export const rh = [
     {
       "nome": "André Ferreira",
-      "link": "https://media.grupoinveste.pt/gp/person/André_Ferreira.jpg"
+      "link": "https://media.grupoinveste.pt/gp/person/Andre_Ferreira.jpg"
     },
     {
-      "nome": "goncalo gil",
+      "nome": "gonçalo gil",
       "link": "https://media.grupoinveste.pt/gp/person/goncalo_gil.jpg"
     },
     {
@@ -13,7 +13,7 @@ export const rh = [
     },
     {
       "nome": "Hugo Ré",
-      "link": "https://media.grupoinveste.pt/gp/person/Hugo_Ré.jpg"
+      "link": "https://media.grupoinveste.pt/gp/person/Hugo_Re.jpg"
     },
     {
       "nome": "Liliana Batista",
@@ -25,7 +25,7 @@ export const rh = [
     },
     {
       "nome": "Miguel Gonçalves",
-      "link": "https://media.grupoinveste.pt/gp/person/Miguel_Gonçalves.jpg"
+      "link": "https://media.grupoinveste.pt/gp/person/Miguel_Goncalves.jpg"
     },
     {
       "nome": "Pedro Costa",
@@ -45,6 +45,6 @@ export const rh = [
     },
     {
       "nome": "sebastião costa",
-      "link": "https://media.grupoinveste.pt/gp/person/sebastião_costa.jpg"
+      "link": "https://media.grupoinveste.pt/gp/person/sebastiao_costa.jpg"
     }
   ] 
