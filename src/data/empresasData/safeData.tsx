@@ -33,7 +33,7 @@ export const safeData: empresaDataInterface = {
         {
             "title": "safe.section2.1.title",
             "text": [
-                "safe.section2.1.text.0", "safe.section2.1.text.1", "safe.section2.1.text.2"
+                "safe.section2.1.text.0"
             ]
         },
         {
@@ -46,6 +46,6 @@ export const safeData: empresaDataInterface = {
     "section3": {
         "title": "safe.section3.title",
         "text": "safe.section3.text",
-        "link": "https://www.invest2030.pt/meeting"
+        "link": "https://www.safevanguard.com/"
     }
 }

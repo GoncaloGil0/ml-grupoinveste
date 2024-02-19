@@ -33,13 +33,25 @@ export const investData: empresaDataInterface = {
         {
             "title": "invest2030.section2.1.title",
             "text": [
-                "invest2030.section2.1.text.0", "invest2030.section2.1.text.1", "invest2030.section2.1.text.2"
+                "invest2030.section2.1.text.0", "invest2030.section2.1.text.1"
             ]
         },
         {
             "title": "invest2030.section2.2.title",
             "text": [
                 "invest2030.section2.2.text.0", "invest2030.section2.2.text.1", "invest2030.section2.2.text.2"
+            ]
+        },
+        {
+            "title": "invest2030.section2.3.title",
+            "text": [
+                "invest2030.section2.3.text.0", "invest2030.section2.3.text.1", "invest2030.section2.3.text.2", "invest2030.section2.3.text.3"
+            ]
+        },
+        {
+            "title": "invest2030.section2.4.title",
+            "text": [
+                "invest2030.section2.4.text.0", "invest2030.section2.4.text.1", "invest2030.section2.4.text.2", "invest2030.section2.4.text.3"
             ]
         }
     ],

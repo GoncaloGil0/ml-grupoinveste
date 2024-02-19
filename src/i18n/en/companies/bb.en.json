@@ -4,37 +4,64 @@
         "tags": [
             "Marketing", "Web Development", "Social Media"
         ],
-        "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
+        "slogan": "Transforming Ideas into Digital Triumphs.",
         "section1": {
-            "title1": "About us?",
-            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "title1": "About Blendbyte",
+            "text1": "BlendByte stands out as a team of storytellers, dreamers, and above all, dedicated partners on the journey toward success. Each vision and objective is viewed as a blank page, ready to be filled with innovative and personalized strategies.",
+            "text2": "With a young and specialized team in digital marketing, each project represents an opportunity to turn ideas into realities, offering a unique and engaging experience.",
             "title2": "Mission",
-            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+            "text3": "BlendByte's mission is to recognize the uniqueness of each company, distancing itself from predefined models and opting for customized solutions that suit their specific needs.",
+            "text4": "Whether to enhance brand visibility, capture the hearts and minds of new customers, or reinforce social media presence, Blendbyte is ready to explore your new digital horizon. Committed to going beyond, transforming challenges into opportunities, and actively contributing to the growth and success of each client."
         },
         "section2": [{
-                "title": "Consultoria Financeira",
+                "title": "Digital Marketing",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Social media management",
+                    "Meta Ads social media campaign management",
+                    "Google Ads campaign management",
+                    "Newsletters",
+                    "Email marketing"
                 ]
             },
             {
-                "title": "Consultoria Risco",
+                "title": "Events",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Organization and coverage of events",
+                    "Video and photography capture",
+                    "Photography and video editing"
                 ]
             },
             {
-                "title": "Consultoria Investimento",
+                "title": "Branding",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Naming",
+                    "Visual identity",
+                    "Slogan",
+                    "Brand personality",
+                    "Communication tone"
+                ]
+            },
+            {
+                "title": "Communication",
+                "text": [
+                    "Strategic communication plans",
+                    "Brand activations",
+                    "Billboards",
+                    "Banners"
+                ]
+            },
+            {
+                "title": "Web Development",
+                "text": [
+                    "Website development",
+                    "Creation of online stores",
+                    "Creation of landing pages"
                 ]
             }
         ],
         "section3": {
-            "title": "Envia-nos uma mensagem!",
-            "text": "Clica aqui!"
+            "title": "Ready to make an impact in the digital world?",
+            "text": "Contact us here!"
         }
     }
 }

@@ -2,39 +2,47 @@
     "esportzy": {
         "name": "Esportzy",
         "tags": [
-            "Marketing", "Web Development", "Social Media"
+            "Marketplace", "Gaming", "Esports"
         ],
-        "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
+        "slogan": "Elevating Gaming, Empowering Communities.",
         "section1": {
-            "title1": "About us?",
-            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "title1": "Who are we?",
+            "text1": "Esportzy, a Portuguese company passionate about Gaming and Esports, stands out in the scene through its innovative Marketplace. Specialized in buying and selling hardware, software, accessories, and consoles for Gaming, the online platform offers a secure and efficient alternative to traditional marketplaces. Facilitating interaction between players and enthusiasts, Esportzy not only trades products but also creates a vibrant and connected community in the gaming universe.",
+            "text2": "Furthermore, the company serves as a reference in Consultancy and Management of Gaming and Esports Tournaments. Organizing online and on-site tournaments for companies, institutions, and brands, Esportzy goes beyond, engaging in the creation and production of social, recreational, and sports content. With technological solutions for eSports academies and e-learning, as well as expertise in planning and consultancy for Gaming Rooms, Esportzy positions itself as a comprehensive partner in the Gaming and Esports landscape.",
             "title2": "Mission",
-            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+            "text3": "Esportzy's mission is clear and ambitious: to democratize Gaming and Esports, combating social inequalities. They believe in the power of video games as agents of social connection, promoting essential values such as combating inequalities, integrating eSports into the education system, advocating for Digital Literacy, fostering professional careers in the eSports world, and gaming as a family and leisure aggregator.",
+            "text4": "Committed to providing high-quality services and contributing to the development of this universe in Portugal, Esportzy aims to be a positive force, driving inclusion, education, and professional growth through Gaming and eSports."
         },
         "section2": [{
-                "title": "Consultoria Financeira",
+                "title": "Gaming Marketplace",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Buying and selling second-hand items",
+                    "Online platform facilitating transactions between players and enthusiasts",
+                    "A secure and efficient alternative to traditional marketplaces"
                 ]
             },
             {
-                "title": "Consultoria Risco",
+                "title": "Gaming and Esports Tournaments",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Organization of online and on-site tournaments",
+                    "Creation and production of social, recreational, and sports content",
+                    "Development of technological solutions for eSports academies and e-learning.",
+                    "Planning and consultancy for the creation of Gaming Rooms."
                 ]
             },
             {
-                "title": "Consultoria Investimento",
+                "title": "Other Services",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Hardware and software repair for Gaming and Esports.",
+                    "Training in Gaming and Esports.",
+                    "Equipment rental for Gaming and Esports.",
+                    "Organization of events dedicated to Gaming and Esports."
                 ]
             }
         ],
         "section3": {
-            "title": "Envia-nos uma mensagem!",
-            "text": "Clica aqui!"
+            "title": "You're a Gaming Enthusiast?",
+            "text": "Get in touch with them"
         }
     }
 }

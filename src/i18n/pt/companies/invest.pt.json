@@ -2,39 +2,62 @@
     "invest2030": {
         "name": "Invest2030",
         "tags": [
-            "Investimento", "I&D", "Consultoria"
+            "Investimento", "ID&T", "Consultoria"
         ],
         "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
         "section1": {
-            "title1": "Quem somos?",
-            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "title1": "Sobre a Invest2030",
+            "text1": "A Invest2030 é uma empresa de consultoria especializada em apoiar empresas na obtenção de incentivos financeiros para os seus projetos de investimento. Com uma vasta experiência no mercado português, oferecem um serviço completo e personalizado, desde a análise de elegibilidade do projeto à elaboração e submissão da candidatura.",
+            "text2": "Adicionalmente, oferecem uma vasta gama de serviços de consultoria estratégica, financeira, de risco e de investimento.",
             "title2": "Missão",
-            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+            "text3": "Com a missão de ser a ponte que liga as empresas aos seus objetivos de crescimento. Acreditam que o acesso a capital é essencial para o desenvolvimento das empresas e ajudam proativamente as empresas a obterem os recursos financeiros de que precisam para alcançar o seu potencial máximo.",
+            "text4": "Com a Invest2030, o sucesso do seu projeto está mais perto."
         },
         "section2": [{
                 "title": "Consultoria Financeira",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Business Plan",
+                    "Estudos de Viabilidade Económica e Financeira",
+                    "Avaliações de Empresas"
                 ]
             },
             {
-                "title": "Consultoria Risco",
+                "title": "Consultoria de Risco",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Risco Estratégico",
+                    "Due Deligence"
                 ]
             },
             {
-                "title": "Consultoria Investimento",
+                "title": "Consultoria de Investimento",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Análise de elegibilidade",
+                    "Elaboração de candidaturas",
+                    "Acompanhamento do projeto"
+                ]
+            },
+            {
+                "title": "Consultoria de Estratégica",
+                "text": [
+                    "Start-up",
+                    "Marketing e Comunicação",
+                    "Digitalização de empresas",
+                    "Business Inteligence"
+                ]
+            },
+            {
+                "title": "Fusões e Aquisições",
+                "text": [
+                    "Market Analyis",
+                    "Business Valuation",
+                    "Aquisições",
+                    "Fusões"
                 ]
             }
         ],
         "section3": {
-            "title": "Envia-nos uma mensagem!",
-            "text": "Clica aqui!"
+            "title": "A sua ponte para o sucesso.",
+            "text": "Envia uma mensagem! Clica aqui!"
         }
     }
 }

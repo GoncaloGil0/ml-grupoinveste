@@ -2,39 +2,68 @@
     "blendbyte": {
         "name": "Blendbyte",
         "tags": [
-            "Marketing", "Web Development", "Social Media"
+            "Marketing", "Web Development", "Redes Sociais"
         ],
-        "slogan": "Potenciar o desenvolvimento, crescimento e sustentabilidade das empresas portuguesas.",
+        "slogan": "Transformando Ideias em Triunfos Digitais.",
         "section1": {
-            "title1": "Quem somos?",
-            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
+            "title1": "Sobre a Blendbyte",
+            "text1": "A BlendByte destaca-se como uma equipa de contadores de histórias, sonhadores e, acima de tudo, como parceiros dedicados na jornada rumo ao sucesso. Cada visão e objetivo são encarados como páginas em branco, prontas para serem preenchidas com estratégias inovadoras e personalizadas.",
+            "text2": "Com uma equipa jovem e especializada em marketing digital, cada projeto representa uma oportunidade para transformar ideias em realidades, com uma experiência única e envolvente.",
             "title2": "Missão",
-            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
-            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; "
+            "text3": "A missão da BlendByte reside em reconhecer a singularidade de cada empresa, afastando-se de modelos pré-definidos e optando por soluções personalizadas que se ajustem às suas necessidades específicas. ",
+            "text4": "Seja para ampliar a visibilidade da sua marca, conquistar corações e mentes de novos clientes ou reforçar a presença nas redes sociais, a Blendbyte está pronta para desbravar o seu novo horizonte digital. Comprometidos a ir além, transformando desafios em oportunidades e contribuindo ativamente para o crescimento e sucesso de cada cliente."
         },
         "section2": [{
-                "title": "Consultoria Financeira",
+                "title": "Marketing Digital",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Gestão de redes sociais",
+                    "Gestão de campanhas de redes sociais (Meta Ads)",
+                    "Gestão de campanhas de Google Ads ",
+                    "Newsletters",
+                    "E-mail marketing "
+
                 ]
             },
             {
-                "title": "Consultoria Risco",
+                "title": "Eventos",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Organização e cobertura de eventos ",
+                    "Captação de vídeo e fotografia",
+                    "Edição de fotografia e de vídeo "
+
                 ]
             },
             {
-                "title": "Consultoria Investimento",
+                "title": "Branding",
                 "text": [
-                    "Business Plan", "Estudos de Viabilidade Económica e Financeira", "Avaliação de Empresas"
+                    "Naming",
+                    "Identidade visual",
+                    "Slogan",
+                    "Personalidade da marca",
+                    "Tom de comunicação"
+                ]
+            },
+            {
+                "title": "Comunicação",
+                "text": [
+                    "Planos estratégicos de comunicação",
+                    "Ativações de marca",
+                    "Outdoors",
+                    "Lonas"
+                ]
+            },
+            {
+                "title": "Web Development",
+                "text": [
+                    "Desenvolvimento de websites",
+                    "Criação de lojas online",
+                    "Criação de “Landing Pages”"
                 ]
             }
         ],
         "section3": {
-            "title": "Envia-nos uma mensagem!",
-            "text": "Clica aqui!"
+            "title": "Pronto para causa impacto no mundo digital?",
+            "text": "Fala connosco aqui!"
         }
     }
 }

@@ -1,7 +1,7 @@
 import { empresaDataInterface } from "../../pages/Empresa/empresa";
 
 export const esportzyData: empresaDataInterface = {
-    "color": "rgba(0, 255, 166, 1)",
+    "color": "rgba(0, 211, 137, 1)",
     "link": "/esportzy",
     "icon":"https://media.grupoinveste.pt/emp/esportzy/icon.png",
     "logo_white":"https://media.grupoinveste.pt/emp/esportzy/horizontal_white.png",
@@ -33,13 +33,13 @@ export const esportzyData: empresaDataInterface = {
         {
             "title": "esportzy.section2.1.title",
             "text": [
-                "esportzy.section2.1.text.0", "esportzy.section2.1.text.1", "esportzy.section2.1.text.2"
+                "esportzy.section2.1.text.0", "esportzy.section2.1.text.1", "esportzy.section2.1.text.2", "esportzy.section2.1.text.3"
             ]
         },
         {
             "title": "esportzy.section2.2.title",
             "text": [
-                "esportzy.section2.2.text.0", "esportzy.section2.2.text.1", "esportzy.section2.2.text.2"
+                "esportzy.section2.2.text.0", "esportzy.section2.2.text.1", "esportzy.section2.2.text.2", "esportzy.section2.2.text.3"
             ]
         }
     ],

@@ -27,7 +27,7 @@ export const bbData: empresaDataInterface = {
         {
             "title": "blendbyte.section2.0.title",
             "text": [
-                "blendbyte.section2.0.text.0", "blendbyte.section2.0.text.1", "blendbyte.section2.0.text.2"
+                "blendbyte.section2.0.text.0", "blendbyte.section2.0.text.1", "blendbyte.section2.0.text.2",  "blendbyte.section2.0.text.3",  "blendbyte.section2.0.text.4"
             ]
         },
         {
@@ -39,13 +39,25 @@ export const bbData: empresaDataInterface = {
         {
             "title": "blendbyte.section2.2.title",
             "text": [
-                "blendbyte.section2.2.text.0", "blendbyte.section2.2.text.1", "blendbyte.section2.2.text.2"
+                "blendbyte.section2.2.text.0", "blendbyte.section2.2.text.1", "blendbyte.section2.2.text.2", "blendbyte.section2.2.text.3", "blendbyte.section2.2.text.4"
+            ]
+        },
+        {
+            "title": "blendbyte.section2.3.title",
+            "text": [
+                "blendbyte.section2.3.text.0", "blendbyte.section2.3.text.1", "blendbyte.section2.3.text.2", "blendbyte.section2.3.text.3"
+            ]
+        },
+        {
+            "title": "blendbyte.section2.4.title",
+            "text": [
+                "blendbyte.section2.4.text.0", "blendbyte.section2.4.text.1", "blendbyte.section2.4.text.2"
             ]
         }
     ],
     "section3": {
         "title": "blendbyte.section3.title",
         "text": "blendbyte.section3.text",
-        "link": "https://www.invest2030.pt/meeting"
+        "link": "https://blendbyte.pt/"
     }
 }
