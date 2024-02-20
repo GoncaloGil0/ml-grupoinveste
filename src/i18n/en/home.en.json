@@ -1,6 +1,22 @@
 {
     "home": {
-
+        "hero": {
+            "title": "Grupo Investe",
+            "subTitle": "Boosting Business Success!",
+            "btn": "See more..."
+        },
+        "section2": {
+            "title": "About Us",
+            "text1": "Welcome to Group Investe, your gateway to a comprehensive suite of business solutions designed to propel startups and SMEs into the future. At Group Investe, we redefine the consultancy landscape by offering a one-stop-shop for a myriad of services, including financial consultancy, cutting-edge cybersecurity, dynamic digital marketing, and immersive gamification experiences. Our mission is clear: to empower businesses with the tools they need to thrive in a rapidly evolving market.",
+            "text2": "What sets Group Investe apart is our unwavering commitment to tailoring solutions to meet the unique needs of each business we serve. Our specialized companies — Investe2030, ROOTKey, BlendByte, Esportzy and Safevanguard — work in harmony to provide a holistic approach to business growth. Whether it's navigating complex financial landscapes, fortifying digital security, crafting digital identities, or elevating the gaming experience, Group Investe is your dedicated partner on the journey to success.",
+            "text3": "Join us on this transformative journey where innovation meets excellence. Group Investe is not just a consortium of companies; we are architects of growth, partners in success, and champions of innovation within the Portuguese business landscape. Discover the unlimited possibilities of growth and innovation with Group Investe.",
+            "btn": "Learn more"
+        },
+        "section3": {
+            "title": "Trusted by",
+            "text1": "In the ever-evolving landscape of business, trust is our cornerstone at Group Investe. We're honored to be the chosen partner for a diverse spectrum of businesses, ranging from pioneering startups to established enterprises. Our commitment to delivering excellence has solidified enduring partnerships with clients across industries.",
+            "text2": "What sets Group Investe apart is the tangible impact we've had on our clients. From financial transformations to digital breakthroughs, our track record is a testament to our unwavering dedication to client success. As you explore this slider, witness the logos of businesses that have chosen Group Investe as their partner on the journey to lasting success. Join us in transforming challenges into opportunities and visions into realities."
+        }
 
     }
 }

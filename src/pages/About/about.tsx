@@ -7,58 +7,61 @@ import { rh } from "../../data/rh";
 import './about.css'
 import about from '../../assets/bg/about.jpg'
 import hands from '../../assets/bg/hands.jpg'
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+    const { t } = useTranslation();
+
     return (
         <main className="about">
             <Hero.Root
                 img={about}
                 textClassName="aboutHeroText"
             >
-                <Hero.Title title="A nossa historia" />
-                <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit. " />
+                <Hero.Title title={t('about.hero.title')} />
+                <Hero.Description desc={t('about.hero.subTitle')} />
                 <BtnScrool message="" href={"/about#mission"} color="white" />
             </Hero.Root>
 
             <div className="historia">
-                <h1>A nossa historia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <h1>{t('about.section1.title')}</h1>
+                <p>{t('about.section1.text1')}</p>
+                <p>{t('about.section1.text2')}</p>
+                <p>{t('about.section1.text3')}</p>
 
                 <img loading="lazy" src={hands} alt="grupo investe history" />
             </div>
 
             <Section.Root id="mission" img="" alt="Era Bom uma imagem de equipa toda">
-                <Section.Title title="Missão" />
-                <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
-                <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
-                <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
+                <Section.Title title={t('about.section2.title')} />
+                <Section.Text desc={t('about.section2.text1')} />
+                <Section.Text desc={t('about.section2.text2')} />
+                <Section.Text desc={t('about.section2.text3')} />
             </Section.Root>
 
             <div className="goals" id="goals">
                 <div className="textsGoals">
-                    <h1>Objetivos</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1>{t('about.section3.title')}</h1>
+                    <p>{t('about.section3.text1')}</p>
+                    <p>{t('about.section3.text2')}</p>
                 </div>
                 <div className="images">
                     {dataEmpresas.map((data, index) => (
                         <a href={data.link}>
-                        <img  loading="lazy" key={index} src={data.section1.img} alt={data.header.name} />
+                            <img loading="lazy" key={index} src={data.section1.img} alt={data.header.name} />
                         </a>
                     ))}
                 </div>
             </div>
 
             <Quote
-                person="Jorge Delgado"
-                position="CEO & Managing Partner"
-                quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla."
+                person={t('about.section4.name')}
+                position={t('about.section4.position')}
+                quote={t('about.section4.text')}
             />
 
             <div id="team" className="team">
-                <h1 className="text-center">A nossa equipa</h1>
+                <h1 className="text-center">{t('about.section5.title')}</h1>
                 <div className="members">
                     {rh.map((data, index) => (
                         <figure key={index}>

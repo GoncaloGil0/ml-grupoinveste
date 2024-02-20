@@ -74,9 +74,9 @@ export default function Home() {
     <main className="home">
 
       <Hero.Root img={home}>
-        <Hero.Title title="Grupo Investe" />
-        <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit. " />
-        <BtnScrool message="See more..." href={"/#about"} color="white" />
+        <Hero.Title title={t('home.hero.title')} />
+        <Hero.Description desc={t('home.hero.subTitle')}  />
+        <BtnScrool message={t('home.hero.btn')} href={"/#about"} color="white" />
         <div className="btnEmpresas">
           <span />
           <span />
@@ -104,18 +104,18 @@ export default function Home() {
       </Hero.Root>
 
       <Section.Root id="about" img="" alt="Era Bom uma imagem de equipa">
-        <Section.Title title="Sobre" />
-        <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
-        <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
-        <Section.Text desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; " />
-        <Section.Button icone={MdKeyboardArrowRight} className="flex items-center justify-start gap-1 hover:gap-3 hover:text-xl font-bold rounded-2xl px-2 py-5 transition-all duration-500" to={"/about"} desc="Saber mais" />
+        <Section.Title title={t('home.section2.title')} />
+        <Section.Text desc={t('home.section2.text1')} />
+        <Section.Text desc={t('home.section2.text2')} />
+        <Section.Text desc={t('home.section2.text3')} />
+        <Section.Button icone={MdKeyboardArrowRight} className="flex items-center justify-start gap-1 hover:gap-3 hover:text-xl font-bold rounded-2xl px-2 py-5 transition-all duration-500" to={"/about"} desc={t('home.section2.btn')} />
       </Section.Root>
 
       <div className="trusted">
         <div className="text">
-          <h1>Trusted by</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum.  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-          <p>Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+          <h1>{t('home.section3.title')}</h1>
+          <p>{t('home.section3.text1')}</p>
+          <p>{t('home.section3.text2')}</p>
         </div>
         <div className="slidesDiv">
           <Slider  {...multipleRowsSettings} rtl={true}>
