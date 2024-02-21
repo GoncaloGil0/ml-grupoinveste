@@ -22,7 +22,7 @@
 .about .historia :is(h1, p) {
     z-index: 2;
     color: white;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .about .historia h1 {

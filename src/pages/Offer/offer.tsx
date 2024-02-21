@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Hero } from '../../components/Heros'
 import './offer.css';
 import offer from '../../assets/bg/offer.avif'
+import { useTranslation } from 'react-i18next';
 interface SectionRefs {
     consulting: React.MutableRefObject<HTMLElement | null>;
     cybersecurity: React.MutableRefObject<HTMLElement | null>;
@@ -11,6 +12,8 @@ interface SectionRefs {
 }
 
 export default function Offer() {
+    const { t } = useTranslation();
+
     const sectionRefs: SectionRefs = {
         consulting: useRef(null),
         cybersecurity: useRef(null),
@@ -64,35 +67,35 @@ export default function Offer() {
                 img={offer}
                 className='offerHero'
                 textClassName='textOfferHero'
-             >
-                <Hero.Title title="A nossa oferta" />
-                <Hero.Description desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit adipiscing elit." />      
+            >
+                <Hero.Title title={t('offer.hero.title')} />
+                <Hero.Description desc={t('offer.hero.subTitle')} />
             </Hero.Root>
             <div className='array'>
                 <section className={visibleSection === 'consulting' ? 'visible' : ''} id='consulting' ref={sectionRefs.consulting}>
-                    <h1 >consulting <span style={{ borderColor: `${"#000"}` }} /></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1 >{t('offer.section1.title')} <span style={{ borderColor: `${"#000"}` }} /></h1>
+                    <p>{t('offer.section1.text1')}</p>
+                    <p>{t('offer.section1.text2')}</p>
                 </section>
                 <section className={visibleSection === 'cybersecurity' ? 'visible' : ''} id='cybersecurity' ref={sectionRefs.cybersecurity}>
-                    <h1 >cybersecurity <span style={{ borderColor: `${"#000"}` }} /></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1 >{t('offer.section2.title')} <span style={{ borderColor: `${"#000"}` }} /></h1>
+                    <p>{t('offer.section2.text1')}</p>
+                    <p>{t('offer.section2.text2')}</p>
                 </section>
                 <section className={visibleSection === 'networking' ? 'visible' : ''} id='networking' ref={sectionRefs.networking}>
-                    <h1 >networking <span style={{ borderColor: `${"#000"}` }} /></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1 >{t('offer.section3.title')} <span style={{ borderColor: `${"#000"}` }} /></h1>
+                    <p>{t('offer.section3.text1')}</p>
+                    <p>{t('offer.section3.text2')}</p>
                 </section>
                 <section className={visibleSection === 'marketing' ? 'visible' : ''} id='marketing' ref={sectionRefs.marketing}>
-                    <h1 >marketing <span style={{ borderColor: `${"#000"}` }} /></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1 >{t('offer.section4.title')} <span style={{ borderColor: `${"#000"}` }} /></h1>
+                    <p>{t('offer.section4.text1')}</p>
+                    <p>{t('offer.section4.text2')}</p>
                 </section>
                 <section className={visibleSection === 'gamming' ? 'visible' : ''} id='gaming' ref={sectionRefs.gamming}>
-                    <h1 >gaming <span style={{ borderColor: `${"#000"}` }} /></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend lorem non massa varius, at interdum arcu condimentum. Nulla facilisi. Cras eget massa vel ligula tincidunt fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                    <h1 >{t('offer.section5.title')} <span style={{ borderColor: `${"#000"}` }} /></h1>
+                    <p>{t('offer.section5.text1')}</p>
+                    <p>{t('offer.section5.text2')}</p>
                 </section>
             </div>
         </main>

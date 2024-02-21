@@ -107,7 +107,6 @@ export default function Home() {
         <Section.Title title={t('home.section2.title')} />
         <Section.Text desc={t('home.section2.text1')} />
         <Section.Text desc={t('home.section2.text2')} />
-        <Section.Text desc={t('home.section2.text3')} />
         <Section.Button icone={MdKeyboardArrowRight} className="flex items-center justify-start gap-1 hover:gap-3 hover:text-xl font-bold rounded-2xl px-2 py-5 transition-all duration-500" to={"/about"} desc={t('home.section2.btn')} />
       </Section.Root>
 

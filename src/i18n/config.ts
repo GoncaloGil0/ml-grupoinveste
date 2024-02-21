@@ -16,12 +16,14 @@ import esportzyEn from './en/companies/esportzy.en.json'
 import investEn from './en/companies/invest.en.json'
 import rootkeyEn from './en/companies/rootkey.en.json'
 import safeEn from './en/companies/safe.en.json'
+import offerEn from './en/offer.en.json'
 
 import bbPt from './pt/companies/bb.pt.json'
 import esportzyPt from './pt/companies/esportzy.pt.json'
 import investPt from './pt/companies/invest.pt.json'
 import rootkeyPt from './pt/companies/rootkey.pt.json'
 import safePt from './pt/companies/safe.pt.json'
+import offerPt from './pt/offer.pt.json'
 
 
 i18n.use(initReactI18next).init({
@@ -36,6 +38,7 @@ i18n.use(initReactI18next).init({
         ...esportzyEn,
         ...investEn,
         ...rootkeyEn,
+        ...offerEn,
         ...safeEn
       }
     },
@@ -49,6 +52,7 @@ i18n.use(initReactI18next).init({
         ...esportzyPt,
         ...investPt,
         ...rootkeyPt,
+        ...offerPt,
         ...safePt
       }
     },
