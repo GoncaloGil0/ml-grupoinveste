@@ -162,16 +162,16 @@ video {
         gap: 100px;
     }
     h1 {
-        font-size: 50px;
+        font-size: 45px !important;
     }
     h2 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     h3 {
-        font-size: 34px;
+        font-size: 34px !important;
     }
     h4 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     h5 {
         font-size: 24px;

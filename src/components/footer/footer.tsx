@@ -63,7 +63,10 @@ export default function Footer() {
       </div>
       <div className='flex'>
         <p>{t('Footer.rights')}</p>
-        <a href='/'>{t('Footer.docsLegais')}</a>
+        <div>
+        <a href='/legal/cookies'>{t('cookies.hero.title')} </a>
+        <a href='/legal/privacy-policy'>| {t('privacy.hero.title')}</a>
+        </div>
       </div>
     </footer>
   )

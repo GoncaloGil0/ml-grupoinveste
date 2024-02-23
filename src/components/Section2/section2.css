@@ -19,7 +19,7 @@
 .section2 img {
     width: 100px;
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     left: -5%;
 }
 
@@ -28,4 +28,14 @@
     top: 5%;
     left: unset;
     right: -5%;
+}
+
+@media screen and (max-width: 600px) {
+    .section2 img {
+        width: 60px;
+    }
+    .section2 {
+        padding: 20% 0;
+        align-items: flex-start;
+    }
 }

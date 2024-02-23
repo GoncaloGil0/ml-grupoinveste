@@ -5,6 +5,7 @@ export const safeData: empresaDataInterface = {
     "link": "/safevanguard",
     "icon":"https://media.grupoinveste.pt/emp/safevanguard/icon.png",
     "logo_white":"https://media.grupoinveste.pt/emp/safevanguard/horizontal_white.png",
+    "logo_vertical":"https://media.grupoinveste.pt/emp/safevanguard/vertical_white.png",
     "header": {
         "website": "https://safevanguard.com/",
         "banner": "https://www.invest2030.pt/images/cover1.jpg",

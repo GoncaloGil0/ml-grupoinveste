@@ -17,7 +17,6 @@
     z-index: 20;
     position: absolute;
     top: 37%;
-    border: 10%;
     left: 10%;
     padding: 30px 50px;
     border-radius: 30px;
@@ -29,6 +28,7 @@
     align-items: start;
     justify-content: center;
     gap: 15px;
+    overflow: hidden;
     backdrop-filter: blur(8px);
 }
 
@@ -55,6 +55,7 @@
     align-items: center;
     justify-content: start;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .empresa .empresaHero .heroComponent .tags p {
@@ -143,4 +144,23 @@
     height: 4px;
     width: 4px;
     background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .empresa .empresaHero .heroComponent {
+        width: 95%;
+        left: 2.5%;
+        border: 5%;
+        padding: 30px;
+        border-radius: 20px;
+        top: 20%;
+    }
+    .empresa .empresaHero .heroComponent .tags p {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .empresa .oferta {
+        padding: 90px 2.5%;
+        grid-template-columns: repeat(1, 100%);
+    }
 }

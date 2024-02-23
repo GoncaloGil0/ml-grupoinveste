@@ -6,6 +6,8 @@ import { dataEmpresas } from '../data/dataEmpresas';
 import { useEffect, useState } from 'react';
 import EmpresaHome from '../pages/EmpresaHome/empresaHome';
 import Offer from '../pages/Offer/offer';
+import Cookies from '../pages/Legal/Cookies';
+import Privacy from '../pages/Legal/Privacy';
 
 const Routes = () => {
     const [data, setData] = useState<empresaDataInterface[]>([]);
@@ -17,10 +19,12 @@ const Routes = () => {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path='/' element={<Home />} />
+                <Route path='/*' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/companies' element={<EmpresaHome data={data} />} />
                 <Route path='/offer' element={<Offer />} />
+                <Route path='/legal/cookies' element={<Cookies />} />
+                <Route path='/legal/privacy-policy' element={<Privacy />} />
                 {data.map((empresa, index) => (
                     <Route
                         key={index}

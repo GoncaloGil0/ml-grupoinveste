@@ -1,0 +1,41 @@
+{
+    "cookies": {
+        "hero": {
+            "title": "Política de Cookies",
+            "subTitle": "Conheça como tratamos as suas cookies"
+        },
+        "description": "Quando visita o nosso website, podemos enviar uma ou mais 'cookies' – pequenos ficheiros de dados – para o seu computador de modo a identificar exclusivamente o seu navegador e deixar que a Métodos e Sugestões, Lda o ajude a iniciar sessão mais rapidamente e a melhorar a sua navegação através do nosso Website. Uma cookie pode transmitir informações anónimas sobre como navega no nosso website para que possamos fornecer-lhe uma experiência mais personalizada, sem recolher informações pessoais sobre si. Uma cookie persistente permanece no seu computador depois de fechar o seu navegador para que possa ser usado pelo mesmo em visitas subsequentes ao Serviço. As cookies persistentes podem ser removidas seguindo as instruções do seu navegador web. Uma cookie de sessão é temporária e desaparece depois de fechar o seu navegador.",
+        "sec1": {
+            "title": "Cookies Essenciais",
+            "text": "Estas cookies são essenciais para lhe fornecer os serviços disponíveis através do nosso website e para que possa utilizar algumas das suas funcionalidades. Por exemplo, permite que o conteúdo das páginas que solicita carregue mais rapidamente. Sem estas cookies, os Serviços que pediu não podem ser prestados, e só utilizamos estas cookies para lhe fornecer esses serviços."
+        },
+        "sec2": {
+            "title": "Cookies de funcionalidade",
+            "text": "Estas cookies permitem que o nosso Website se lembre das escolhas que faz quando o utiliza, como as alterações que faz para outras partes do nosso website que pode personalizar. O objetivo destas cookies é proporcionar-lhe uma experiência mais pessoal e evitar que tenha de voltar a introduzir as suas preferências sempre que visita o nosso website."
+        },
+        "sec3": {
+            "title": "Cookies de funcionalidade",
+            "text": "Estas cookies permitem que o nosso Website se lembre das escolhas que faz quando o utiliza, como as alterações que faz para outras partes do nosso website que pode personalizar. O objetivo destas cookies é proporcionar-lhe uma experiência mais pessoal e evitar que tenha de voltar a introduzir as suas preferências sempre que visita o nosso website."
+        },
+        "sec4": {
+            "title": "Cookies de análise e desempenho",
+            "text": "Estas cookies são utilizadas para recolher informações sobre o tráfego para o nosso website e como os utilizadores o utilizam. A informação recolhida através destas cookies não identifica 'diretamente' qualquer visitante individual. No entanto, pode tornar esses visitantes 'indiretamente identificáveis'. Isto porque as informações recolhidas estão tipicamente ligadas a um pseudónimo identificador associado ao dispositivo que utiliza para aceder ao nosso website. A informação recolhida é agregada e anónima. Utilizamos esta informação para ajudar a operar o nosso website de forma mais eficiente, para recolher informações demográficas amplas e monitorizar o seu nível de atividade. Podemos usar várias ferramentas diferentes, incluindo o Google Analytics e similares para este fim. "
+        },
+        "sec5": {
+            "title": "Cookies direcionadas e publicitárias",
+            "text": "Estas cookies acompanham os hábitos de navegação dos utilizadores para nos permitir mostrar publicidade que é mais provável que lhe interesse. Estas cookies utilizam informações sobre o seu histórico de navegação para agrupar com outros utilizadores que tenham interesses semelhantes. Com base nessas informações, e com a nossa permissão, os anunciantes de terceiros podem colocar cookies para que possam apresentar anúncios que pensamos que serão relevantes para os seus interesses enquanto estiver em sites de terceiros. Os anunciantes de terceiros também podem utilizar outras tecnologias para além de cookies colocadas no Website (como o JavaScript, ou web beacons) para medir a eficácia dos seus anúncios e personalizar o conteúdo publicitário."
+        },
+        "sec6": {
+            "title": "Cookies de social media",
+            "text": "Estas cookies são utilizadas quando partilha informações utilizando um botão de partilha de redes sociais ou botão 'like' no nosso Website, ou quando liga a sua conta ou se envolve com o nosso conteúdo em/ou através de um site de redes sociais como Facebook, Twitter ou Google+. A rede social vai gravar que fez isto. Estas cookies também podem incluir determinado código que foi colocado no nosso website para ajudar a rastrear conversões de anúncios, otimizar anúncios com base em dados recolhidos, construir audiências direcionadas para futuros anúncios e remarketing para leads qualificadas — utilizadores que já tomaram determinadas medidas no website."
+        },
+        "sec7": {
+            "title": "Como pode desativar os cookies?",
+            "text": "Normalmente, pode redefinir o seu navegador web para recusar todas as cookies ou notificá-lo quando uma cookie está a ser enviada. Para tal, deve seguir as instruções fornecidas pelo seu navegador (normalmente localizadas dentro das 'configurações', 'ferramentas' ou “edição de cookies”). Muitos navegadores estão definidos para aceitar cookies até que o utilizador altere as suas definições. Se escolher não aceitar as nossas cookies, pode experienciar algum inconveniente na utilização do nosso website e algumas funcionalidades podem não funcionar corretamente."
+        },
+        "sec8": {
+            "title": "As alterações à Política de Cookies da Métodos e Sugestões, Lda.",
+            "text": "Métodos e Sugestões, Lda pode atualizar periodicamente a sua Política de Cookies"
+        }
+    }
+}

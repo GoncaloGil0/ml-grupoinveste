@@ -1,0 +1,50 @@
+{
+    "privacy": {
+        "hero": {
+            "title": "Privacy Policy",
+            "subTitle": "Learn how we handle your data"
+        },
+        "description": "Métodos e Sugestões, Lda. is always committed to respecting privacy and protecting personal data, as well as processing it responsibly and in accordance with applicable national legislation and the General Data Protection Regulation (GDPR).",
+        "description2": "This Privacy Policy outlines the general privacy guidelines and practices of Métodos e Sugestões, Lda. that apply to the personal data we collect, use, and share with our clients, business partners, suppliers, and other organizations with whom we have or may have a business relationship, for various purposes:",
+        "sec1": {
+            "title": "1. Processing of personal data carried out or participated by Métodos e Sugestões, Lda.",
+            "text": "When Métodos e Sugestões, Lda. uses personal data within the scope of an order, transaction, or agreement (or for the preparation thereof), or to provide the requested services to the data subject, that information is necessary for the execution of the agreement entered into with the data subject. \n\n When Métodos e Sugestões, Lda. uses personal data for marketing, improvement, or development of its products or services, for security reasons, or for regulatory requirements beyond the scope of the data subject's agreement or request, it is done based on the legitimate interests of Métodos e Sugestões, Lda., third parties, or, if necessary, with the explicit consent of the data subject. \n\n Métodos e Sugestões, Lda. may collect personal data for the following purposes:",
+            "div1": {
+                "title": "a. Websites and other online services",
+                "text": "When visiting one of our websites or using our online services, Métodos e Sugestões, Lda. records the necessary information to grant access to the data subject, for the website's operation, and to comply with legal and security requirements related to the website's operation, such as passwords, IP address, and browser settings. We also collect information about the data subject's activities during the visit to personalize the user experience, such as recording preferences and settings, and gathering statistics to help us improve and develop our products and services."
+            },
+            "div2": {
+                "title": "b. Information requests, orders, or support",
+                "text": "When a data subject contacts Métodos e Sugestões, Lda. for information requests, to order a product or service, to request support, to participate in a forum, or in another collaborative or social tool, we collect the necessary information to respond to the request, provide access to the product or service, offer support, and contact the data subject. For example, we collect the data subject's name and contact information, details about the request, and the agreement between the data subject and Métodos e Sugestões, Lda. to respond, send and invoice the order, or customer satisfaction survey information. We retain such information for administrative purposes, in defense of Métodos e Sugestões, Lda.'s rights, and within the scope of the relationship with the data subject. When a data subject provides their name and contact information to register within such a request, this registration may be used in the future to identify them when visiting our websites. To order services and products, it may be necessary to register an identifier for the data subject, which may also allow customizing and controlling the data subject's privacy settings."
+            },
+            "div3": {
+                "title": "c. Cloud services",
+                "text": "We collect information about the data subject's use of Métodos e Sugestões, Lda.'s cloud services to enable the operation of product features, improve the user experience, personalize interactions with the data subject, inform our clients about the general use of services, provide support, and improve and develop our products and services."
+            },
+            "div4": {
+                "title": "d. Contact with potential/customers, partners, and suppliers",
+                "text": "In the context of Métodos e Sugestões, Lda.'s relationship with its potential customers, customers, partners, and suppliers, professional contact information is also provided (such as Métodos e Sugestões, Lda.'s name, contact details, position or function of its employees, subcontractors, consultants, and authorized data subjects) for contract management, responding to requests, supplying products and services, providing support, billing, and relationship management."
+            },
+            "div5": {
+                "title": "e. Facility visits",
+                "text": "Métodos e Sugestões, Lda. records individual visits to its own facilities (name, identification, and professional contact information) and uses surveillance systems in some locations for the security of people and assets."
+            },
+            "div6": {
+                "title": "f. Marketing actions",
+                "text": "Most of the personal data we collect results from direct interactions with communication and digital presence actions. When a person registers for an event, we may collect information about the organization and the course of the event, such as participation in sessions and survey results. We combine the personal data we collect to develop aggregated analyses and business information for conducting our business and for marketing purposes. When visiting our websites or using our services, Métodos e Sugestões, Lda. may provide personalized information to the data subject."
+            }
+        },
+        "sec2": {
+            "title": "2. Sharing of personal data",
+            "text": "When appropriate, Métodos e Sugestões, Lda. may need to share personal data with selected partners to assist in providing products or services to the data subject or to Métodos e Sugestões, Lda., where it performs functions, or to respond to their requests, with the data subject's authorization. When selecting suppliers and partners, Métodos e Sugestões, Lda. considers their respective data processing processes. If Métodos e Sugestões, Lda. decides to sell, buy, merge, or otherwise reorganize its business, such a transaction may involve the disclosure of personal data to buyers or potential buyers, or the receipt of such data from sellers. In certain circumstances, personal data may be subject to disclosure to public entities for legal proceedings, orders, or judicial processes. Métodos e Sugestões, Lda. may also share the data subject's personal data to protect the rights or property of Métodos e Sugestões, Lda., its business partners, suppliers, customers, or others, whenever it believes that such rights or properties have been or may be affected."
+        },
+        "sec3": {
+            "title": "3. Security and integrity of personal data",
+            "text": "The goal of Métodos e Sugestões, Lda. is to protect personal data and preserve its accuracy. Métodos e Sugestões, Lda. implements appropriate physical, organizational, and technical protection measures to safeguard the data subject's personal data against unauthorized access, use, or disclosure. Métodos e Sugestões, Lda. also requires its suppliers to protect this personal data against unauthorized access, use, or disclosure."
+        },
+        "sec4": {
+            "title": "4. Retention period",
+            "text": "Métodos e Sugestões, Lda. does not retain personal data for longer than necessary for the fulfillment of the purposes for which they were collected, including processing security in accordance with legal and regulatory obligations (e.g., for audit or accounting purposes), disputes regarding processing, and for the establishment, exercise, or defense of legal actions. As circumstances may vary depending on the context and services, additional specific communications from Métodos e Sugestões, Lda. may provide more detailed information about the applicable retention terms in each case."
+        }
+    }
+}

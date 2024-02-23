@@ -1,0 +1,41 @@
+{
+    "cookies": {
+        "hero": {
+            "title": "Cookie Policy",
+            "subTitle": "Learn how we handle your cookies"
+        },
+        "description": "When you visit our website, we may send one or more 'cookies' – small data files – to your computer to uniquely identify your browser and allow Métodos e Sugestões, Lda to help you log in faster and enhance your navigation through our website. A cookie can convey anonymous information about how you browse our website so that we can provide you with a more personalized experience without collecting personal information about you. A persistent cookie remains on your computer after you close your browser, so it can be used by it on subsequent visits to the service. Persistent cookies can be removed following your web browser's instructions. A session cookie is temporary and disappears after you close your browser.",
+        "sec1": {
+            "title": "Essential Cookies",
+            "text": "These cookies are essential to provide you with the services available through our website and for you to use some of its features. For example, they enable the content of the pages you request to load faster. Without these cookies, the requested services cannot be provided, and we only use these cookies to provide you with those services."
+        },
+        "sec2": {
+            "title": "Functionality Cookies",
+            "text": "These cookies allow our website to remember the choices you make when using it, such as changes you make to other parts of our website that you can personalize. The purpose of these cookies is to provide you with a more personalized experience and prevent you from having to enter your preferences again whenever you visit our website."
+        },
+        "sec3": {
+            "title": "Functionality Cookies",
+            "text": "These cookies allow our website to remember the choices you make when using it, such as changes you make to other parts of our website that you can personalize. The purpose of these cookies is to provide you with a more personalized experience and prevent you from having to enter your preferences again whenever you visit our website."
+        },
+        "sec4": {
+            "title": "Analysis and Performance Cookies",
+            "text": "These cookies are used to collect information about traffic to our website and how users use it. The information collected through these cookies does not 'directly' identify any individual visitor. However, it can make those visitors 'indirectly identifiable.' This is because the collected information is typically linked to an identifier pseudonym associated with the device you use to access our website. The collected information is aggregated and anonymous. We use this information to help operate our website more efficiently, gather broad demographic information, and monitor your level of activity. We may use various different tools, including Google Analytics and similar ones for this purpose."
+        },
+        "sec5": {
+            "title": "Targeted and Advertising Cookies",
+            "text": "These cookies track users' browsing habits to allow us to show advertising that is more likely to be of interest to them. These cookies use information about your browsing history to group with other users who have similar interests. Based on this information, and with our permission, third-party advertisers may place cookies so they can present ads that we think will be relevant to your interests while you are on third-party sites. Third-party advertisers may also use technologies other than cookies placed on the website (such as JavaScript, or web beacons) to measure the effectiveness of their ads and personalize advertising content."
+        },
+        "sec6": {
+            "title": "Social Media Cookies",
+            "text": "These cookies are used when you share information using a social media share button or 'like' button on our website, or when you link your account or engage with our content on/or through a social media site like Facebook, Twitter, or Google+. The social network will record that you have done this. These cookies may also include certain code that has been placed on our website to help track conversions from ads, optimize ads based on collected data, build targeted audiences for future ads, and remarket to qualified leads — users who have already taken certain actions on the website."
+        },
+        "sec7": {
+            "title": "How to Disable Cookies?",
+            "text": "Usually, you can reset your web browser to refuse all cookies or to notify you when a cookie is being sent. To do so, you should follow the instructions provided by your browser (usually located within 'settings,' 'tools,' or 'cookie editing'). Many browsers are set to accept cookies until the user changes their settings. If you choose not to accept our cookies, you may experience some inconvenience in using our website, and some features may not work correctly."
+        },
+        "sec8": {
+            "title": "Changes to Métodos e Sugestões, Lda.'s Cookie Policy",
+            "text": "Métodos e Sugestões, Lda. may periodically update its Cookie Policy."
+        }
+    }
+}

@@ -84,14 +84,14 @@ export default function Home() {
           <span />
           <span />
           <div className="wrap">
-            <Slider  {...heroSettings} rtl={true} arrows={false}>
+            <Slider  {...heroSettings} rtl={false} arrows={false}>
               {dataEmpresas.map((data, index) => (
                 <div key={index}>
                   <div className="logo w-[80%] ml-[10%]">
                     <a href={data.link}>
                       <img
                         className="max-w-full h-full items-center justify-center"
-                        src={data.logo_white}
+                        src={data.logo_vertical ? data.logo_vertical : data.logo_white}
                         alt={data.header.name}
                       />
                     </a>

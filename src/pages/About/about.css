@@ -39,6 +39,7 @@
     background-position: center;
     background-size: cover;
     z-index: 1;
+    object-fit: cover;
 }
 
 .about .goals {
@@ -143,7 +144,7 @@
         margin-top: 20px;
     }
     .about .quote h4 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .about .quote h6 {
         font-size: 15px;

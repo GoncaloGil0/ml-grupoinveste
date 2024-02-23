@@ -176,4 +176,7 @@
         align-items: center;
         justify-content: center;
     }
+     :is(.navBar.active, .navBar.scrolled) .col.contact .title {
+        border: 2px solid transparent;
+    }
 }

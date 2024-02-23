@@ -1,0 +1,23 @@
+.legal .textSection {
+    padding: 0 15%;
+    margin-top: 100px;
+}
+
+.legal {
+    gap: 0;
+}
+
+.legal :is(h1, h5, h2) {
+    font-weight: bold;
+}
+
+.legal header {
+    height: 60vh;
+}
+
+@media screen and (max-width: 600px) {
+    .legal .textSection {
+        padding: 0 5%;
+        margin-top: 50px;
+    }
+}

@@ -9,6 +9,6 @@ export const dataEmpresas: empresaDataInterface[] = [
     investData, 
     rootkeyData, 
     bbData, 
-    safeData,
-    esportzyData 
+    esportzyData, 
+    safeData
 ]

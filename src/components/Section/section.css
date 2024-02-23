@@ -44,4 +44,12 @@
     .sectionRoot :is(.texts, .img) {
         padding: 0;
     }
+    .sectionRoot .img {
+        display: flex;
+        padding: 0;
+        width: 100%;
+    }
+    .sectionRoot .img img {
+        border-radius: 10px;
+    }
 }

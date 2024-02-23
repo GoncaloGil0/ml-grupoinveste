@@ -5,6 +5,7 @@ export const rootkeyData: empresaDataInterface = {
     "link": "/rootkey",
     "icon":"https://media.grupoinveste.pt/emp/rootkey/icon.png",
     "logo_white":"https://media.grupoinveste.pt/emp/rootkey/horizontal_white.png",
+    "logo_vertical":"https://media.grupoinveste.pt/emp/rootkey/vertical_white.png",
     "header": {
         "website": "https://rootkey.ai",
         "banner": "https://media.notcybersec.com/website/Home/homeSection1.png",

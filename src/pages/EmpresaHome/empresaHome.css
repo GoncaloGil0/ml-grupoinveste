@@ -80,3 +80,12 @@
     border-radius: 40px;
     font-size: 15px;
 }
+
+@media screen and (max-width: 600px) {
+    .empresaHome .companiesText .empresaHomeGrid {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .empresaHome .companiesText .empresaHomeGrid a {
+        width: 100%;
+    }
+}

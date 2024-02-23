@@ -11,6 +11,7 @@ export interface empresaDataInterface {
     link: string;
     icon: string;
     logo_white : string;
+    logo_vertical? : string;
     header: {
         website: string;
         banner: string;

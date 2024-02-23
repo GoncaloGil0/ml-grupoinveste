@@ -12,8 +12,6 @@
     z-index: 20;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0 10%;
-    height: 70%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,4 +92,22 @@
 
 .offer .array .visible :is(p, h1) {
     opacity: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .offer .offerHero .textOfferHero :is(h1, h5) {
+        text-align: left;
+        width: 100%;
+    }
+    .offer .array {
+        width: 95vw;
+    }
+    .offer .array h1 {
+        font-size: 30px !important;
+    }
+    .offer .array .visible h1 span {
+        height: 30px;
+        width: 30px;
+        left: -17px;
+    }
 }
