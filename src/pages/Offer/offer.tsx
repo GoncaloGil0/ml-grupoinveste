@@ -50,16 +50,17 @@ export default function Offer() {
     };
 
     useEffect(() => {
-        window.addEventListener('scroll', checkVisibility);
-
-        return () => {
-            window.removeEventListener('scroll', checkVisibility);
+        const handleScroll = () => {
+            checkVisibility();
         };
-    }, []);
-
-    useEffect(() => {
-        checkVisibility();
-    }, []);
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [checkVisibility]);
+    
 
     return (
         <main className='offer'>
