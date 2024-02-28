@@ -24,32 +24,33 @@ export default function Offer() {
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
-    const checkFocado = () => {
-        let currentVisible: string | null = null;
-
-        Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
-            const section = sectionKey as keyof SectionRefs;
-            const scrollDiv = sectionRefs[section].current;
-
-            if (scrollDiv) {
-                const rect = scrollDiv.getBoundingClientRect();
-                const centerY = rect.top + rect.height / 1;
-
-                if (centerY >= window.innerHeight * 0.2 && centerY <= window.innerHeight * 0.8) {
-                    currentVisible = section;
-                }
-            }
-
-            if (index === array.length - 1 && currentVisible === null) {
-                const firstSection = array[0] as keyof SectionRefs;
-                currentVisible = firstSection;
-            }
-        });
-
-        setVisibleSection(currentVisible || null);
-    };
-
     useEffect(() => {
+
+        const checkFocado = () => {
+            let currentVisible: string | null = null;
+
+            Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
+                const section = sectionKey as keyof SectionRefs;
+                const scrollDiv = sectionRefs[section].current;
+
+                if (scrollDiv) {
+                    const rect = scrollDiv.getBoundingClientRect();
+                    const centerY = rect.top + rect.height / 1;
+
+                    if (centerY >= window.innerHeight * 0.2 && centerY <= window.innerHeight * 0.8) {
+                        currentVisible = section;
+                    }
+                }
+
+                if (index === array.length - 1 && currentVisible === null) {
+                    const firstSection = array[0] as keyof SectionRefs;
+                    currentVisible = firstSection;
+                }
+            });
+
+            setVisibleSection(currentVisible || null);
+        };
+
         checkFocado();
 
         window.addEventListener('scroll', checkFocado);
@@ -57,7 +58,7 @@ export default function Offer() {
         return () => {
             window.removeEventListener('scroll', checkFocado);
         };
-    }, [checkFocado]);
+    }, []);
 
 
     return (
