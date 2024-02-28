@@ -1,7 +1,7 @@
 import { BiLinkExternal } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { Hero } from '../../components/Heros/index.tsx'
-import { Section2 } from '../../components/Section2/index.tsx'
+import { Section_2 } from '../../components/Section2/index.tsx'
 import { Section3 } from '../../components/Section3/index.tsx'
 import './empresa.css'
 import { useTranslation } from "react-i18next";
@@ -55,7 +55,7 @@ export default function Empresa(props: empresaDataInterface) {
                             <p key={index} style={{ borderColor: `${props.color}` }}>{t(data)}</p>
                         ))}
                     </div>
-                    <a target="_blank"  rel="noreferrer" href={props.header.website}><h2>{t(props.header.name)} <BiLinkExternal /></h2></a>
+                    <a target="_blank" href={props.header.website}><h2>{t(props.header.name)} <BiLinkExternal /></h2></a>
                     <h6>{t(props.header.slogan)}</h6>
                 </div>
             </Hero.Root>
@@ -81,10 +81,10 @@ export default function Empresa(props: empresaDataInterface) {
                 ))}
             </div>
 
-            <Section2.Root id="click" >
-                <Section2.Title title={t(props.section3.title)} />
-                <Section2.Button2 target="_blank" style={{color: `${props.color}`}} to={props.section3.link} desc={t(props.section3.text)} />
-            </Section2.Root>
+            <Section_2.Root id="click" >
+                <Section_2.Title title={t(props.section3.title)} />
+                <Section_2.Button2 target="_blank" style={{color: `${props.color}`}} to={props.section3.link} desc={t(props.section3.text)} />
+            </Section_2.Root>
         </main>
     )
 }
