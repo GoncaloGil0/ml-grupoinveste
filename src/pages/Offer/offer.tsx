@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Hero } from '../../components/Heros';
 import './offer.css';
 import offer from '../../assets/bg/offer.avif';
