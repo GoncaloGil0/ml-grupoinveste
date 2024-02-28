@@ -5,7 +5,7 @@ import SectionText from "../Section/SectionText";
 import Section2Btn from "./Section2Btn";
 import Section2Root from "./Section2Root";
 
-export const Section_2 = {
+export const Section2 = {
     Root: Section2Root,
     Title: HeroTitle,
     Button: HeroButton,
