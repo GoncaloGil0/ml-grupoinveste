@@ -24,7 +24,7 @@ export default function Offer() {
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
-    const checkVisibility = () => {
+    const checkFocado = () => {
         let currentVisible: string | null = null;
 
         Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
@@ -50,15 +50,15 @@ export default function Offer() {
     };
 
     useEffect(() => {
-        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('scroll', checkFocado);
 
         return () => {
-            window.removeEventListener('scroll', checkVisibility);
+            window.removeEventListener('scroll', checkFocado);
         };
     }, []);
 
     useEffect(() => {
-        checkVisibility();
+        checkFocado();
     }, []);
 
     return (
