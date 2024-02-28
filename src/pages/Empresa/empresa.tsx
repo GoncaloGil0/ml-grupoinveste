@@ -55,7 +55,7 @@ export default function Empresa(props: empresaDataInterface) {
                             <p key={index} style={{ borderColor: `${props.color}` }}>{t(data)}</p>
                         ))}
                     </div>
-                    <a target="_blank" href={props.header.website}><h2>{t(props.header.name)} <BiLinkExternal /></h2></a>
+                    <a target="_blank"  rel="noreferrer" href={props.header.website}><h2>{t(props.header.name)} <BiLinkExternal /></h2></a>
                     <h6>{t(props.header.slogan)}</h6>
                 </div>
             </Hero.Root>
