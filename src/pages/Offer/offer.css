@@ -63,6 +63,7 @@
     height: 60px;
     width: 60px;
     left: -32px;
+    border-color: black;
 }
 
 .offer .array h1 {
@@ -88,12 +89,12 @@
         width: 100%;
     }
     .offer .array {
-        width: 95vw;
+        width: 90vw;
     }
     .offer .array h1 {
         font-size: 30px !important;
     }
-    .offer .array h1 span {
+    .offer .array section h1 span {
         height: 30px;
         width: 30px;
         left: -17px;
