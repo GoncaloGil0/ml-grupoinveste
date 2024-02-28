@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Hero } from '../../components/Heros'
 import './offer.css';
 import offer from '../../assets/bg/offer.avif'
@@ -24,7 +24,7 @@ export default function Offer() {
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
-    function checkVisibility() {
+        const checkVisibility = useCallback(() => {
         let currentVisible: string | null = null;
 
         Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
@@ -47,20 +47,19 @@ export default function Offer() {
         });
 
         setVisibleSection(currentVisible || null);
-    };
+    }, [sectionRefs]);
 
     useEffect(() => {
-        const handleScroll = () => {
-            checkVisibility();
-        };
-    
-        window.addEventListener('scroll', handleScroll);
-    
+        window.addEventListener('scroll', checkVisibility);
+
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', checkVisibility);
         };
     }, [checkVisibility]);
-    
+
+    useEffect(() => {
+        checkVisibility();
+    }, [checkVisibility]);
 
     return (
         <main className='offer'>
