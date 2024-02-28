@@ -18,8 +18,8 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build  || true
-
+        run: npm run build 
+        
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
