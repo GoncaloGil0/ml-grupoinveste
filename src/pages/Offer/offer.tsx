@@ -24,7 +24,7 @@ export default function Offer() {
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
-    const checkVisibility = () => {
+    function checkVisibility() {
         let currentVisible: string | null = null;
 
         Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
