@@ -7,7 +7,7 @@ export const esportzyData: empresaDataInterface = {
     "logo_white":"https://media.grupoinveste.pt/emp/esportzy/horizontal_white.png",
     "header": {
         "website": "https://esportzy.pt",
-        "banner": "https://www.invest2030.pt/images/cover1.jpg",
+        "banner": "https://media.grupoinveste.pt/emp/esportzy/banner.jpg",
         "tags": [
             "esportzy.tags.0", "esportzy.tags.1", "esportzy.tags.2",
         ],
