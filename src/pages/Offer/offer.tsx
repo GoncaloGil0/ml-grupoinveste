@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Hero } from '../../components/Heros'
 import './offer.css';
 import offer from '../../assets/bg/offer.avif'
@@ -14,13 +14,13 @@ interface SectionRefs {
 export default function Offer() {
     const { t } = useTranslation();
 
-    const sectionRefs: SectionRefs = {
+    const sectionRefs: SectionRefs = useMemo(() => ({
         consulting: useRef(null),
         cybersecurity: useRef(null),
         networking: useRef(null),
         marketing: useRef(null),
         gamming: useRef(null),
-    };
+    }), []); // Adicionando um array vazio para indicar que isso só deve ser calculado uma vez
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
@@ -60,7 +60,6 @@ export default function Offer() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [checkVisibility]);
-
     return (
         <main className='offer'>
             <Hero.Root
