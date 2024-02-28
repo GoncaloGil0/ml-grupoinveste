@@ -65,7 +65,7 @@ export default function NavBar() {
         <a href="/offer#gaming">{t('navBar.offer1')}</a>
       </div>
       <div className='col contact'>
-        <a className="title" href={`mailto:${globalVar.email}`} >{t('navBar.contacts')}</a>
+        <a className="title" >{t('navBar.contacts')}</a>
         <a href={`tel:${globalVar.numeroTlmLisboa}`}>{globalVar.numeroTlmLisboa}</a>
         <a href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
         <a href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>
