@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Hero } from '../../components/Heros'
 import './offer.css';
 import offer from '../../assets/bg/offer.avif'
@@ -14,17 +14,17 @@ interface SectionRefs {
 export default function Offer() {
     const { t } = useTranslation();
 
-    const sectionRefs: SectionRefs = useMemo(() => ({
+    const sectionRefs: SectionRefs = {
         consulting: useRef(null),
         cybersecurity: useRef(null),
         networking: useRef(null),
         marketing: useRef(null),
         gamming: useRef(null),
-    }), []); // Adicionando um array vazio para indicar que isso só deve ser calculado uma vez
+    };
 
     const [visibleSection, setVisibleSection] = useState<string | null>(null);
 
-    const checkVisibility = useCallback(() => {
+    const checkVisibility = () => {
         let currentVisible: string | null = null;
 
         Object.keys(sectionRefs).forEach((sectionKey, index, array) => {
@@ -47,19 +47,20 @@ export default function Offer() {
         });
 
         setVisibleSection(currentVisible || null);
-    }, [sectionRefs]);
+    };
 
     useEffect(() => {
-        const handleScroll = () => {
-            checkVisibility();
-        };
-
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', checkVisibility);
 
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', checkVisibility);
         };
-    }, [checkVisibility]);
+    }, []);
+
+    useEffect(() => {
+        checkVisibility();
+    }, []);
+
     return (
         <main className='offer'>
             <Hero.Root
