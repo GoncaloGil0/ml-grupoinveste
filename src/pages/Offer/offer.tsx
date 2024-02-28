@@ -24,7 +24,7 @@ const Offer: React.FC = () => {
   };
 
   const [visibleSection, setVisibleSection] = useState<string | null>(null);
-
+/*
   useEffect(() => {
     const checkVisibility = () => {
       let currentVisible: string | null = null;
@@ -63,7 +63,7 @@ const Offer: React.FC = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [sectionRefs]);
-
+*/
   return (
     <main className='offer'>
       <Hero.Root img={offer} className='offerHero' textClassName='textOfferHero'>
