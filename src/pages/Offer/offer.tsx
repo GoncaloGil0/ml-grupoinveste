@@ -50,16 +50,15 @@ export default function Offer() {
     };
 
     useEffect(() => {
+        checkFocado();
+
         window.addEventListener('scroll', checkFocado);
 
         return () => {
             window.removeEventListener('scroll', checkFocado);
         };
-    }, []);
+    }, [checkFocado]);
 
-    useEffect(() => {
-        checkFocado();
-    }, []);
 
     return (
         <main className='offer'>
