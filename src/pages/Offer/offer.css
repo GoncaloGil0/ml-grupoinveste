@@ -60,17 +60,19 @@
     left: -10px;
     background-color: black;
     border-radius: 50%;
+}
+
+.offer .array .visible h1 span {
     height: 60px;
     width: 60px;
     left: -32px;
-    border-color: black;
 }
 
-.offer .array h1 {
+.offer .array .visible h1 {
     font-size: 90px;
 }
 
-.offer .array p {
+.offer .array .visible p {
     transition: .7s all;
     font-size: 20px;
 }
@@ -79,14 +81,27 @@
     padding: 0 5%;
 }
 
-.offer .array :is(p, h1) {
+.offer .array section h1 {
+    transition: .5s;
+    opacity: 20%;
+}
+
+.offer .array section p {
+    opacity: 15%;
+}
+
+.offer .array .visible :is(p, h1) {
     opacity: 100%;
 }
 
 @media screen and (max-width: 600px) {
     .offer .offerHero .textOfferHero :is(h1, h5) {
         text-align: left;
-        width: 100%;
+        width: 90%;
+    }
+    .offer .array section :is(h1, p) {
+        padding-left: 10%;
+        transition: 1s;
     }
     .offer .array {
         width: 90vw;
@@ -94,7 +109,7 @@
     .offer .array h1 {
         font-size: 30px !important;
     }
-    .offer .array section h1 span {
+    .offer .array .visible h1 span {
         height: 30px;
         width: 30px;
         left: -17px;

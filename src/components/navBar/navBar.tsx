@@ -43,33 +43,33 @@ export default function NavBar() {
         {window.innerWidth < 1200 ? <HiMenu onClick={() => { setState(!state) }} /> : null}
       </div>
       <div className='col center'>
-        <a className="title" href="/about">{t('navBar.about')}</a>
-        <a href="/about#mission">{t('navBar.mission')}</a>
-        <a href="/about#goals">{t('navBar.goals')}</a>
-        <a href="/about#team">{t('navBar.team')}</a>
+        <a className="title" href="/about" onClick={ () => setState(false)}>{t('navBar.about')}</a>
+        <a href="/about#mission" onClick={ () => setState(false)}>{t('navBar.mission')}</a>
+        <a href="/about#goals" onClick={ () => setState(false)}>{t('navBar.goals')}</a>
+        <a href="/about#team" onClick={ () => setState(false)}>{t('navBar.team')}</a>
       </div>
       <div className='col center'>
-        <a className="title" href="/companies">{t('navBar.companies')}</a>
-        <a href="/invest2030">Invest2030</a>
-        <a href="/rootkey">ROOTKey</a>
-        <a href="/safevanguard">Safe Vanguard</a>
-        <a href="/blendbyte">Blendbyte</a>
-        <a href="/esportzy">Esportzy</a>
+        <a onClick={ () => setState(false)} className="title" href="/companies">{t('navBar.companies')}</a>
+        <a onClick={ () => setState(false)} href="/invest2030">Invest2030</a>
+        <a onClick={ () => setState(false)} href="/rootkey">ROOTKey</a>
+        <a onClick={ () => setState(false)} href="/safevanguard">Safe Vanguard</a>
+        <a onClick={ () => setState(false)} href="/blendbyte">Blendbyte</a>
+        <a onClick={ () => setState(false)} href="/esportzy">Esportzy</a>
       </div>
       <div className='col center'>
-        <a className="title" href="/offer">{t('navBar.offer')}</a>
-        <a href="/offer#consulting">{t('navBar.offer2')}</a>
-        <a href="/offer#cybersecurity">{t('navBar.offer3')}</a>
-        <a href="/offer#networking">{t('navBar.offer4')}</a>
-        <a href="/offer#marketing">{t('navBar.offer5')}</a>
-        <a href="/offer#gaming">{t('navBar.offer1')}</a>
+        <a onClick={ () => setState(false)} className="title" href="/offer">{t('navBar.offer')}</a>
+        <a onClick={ () => setState(false)} href="/offer#consulting">{t('navBar.offer2')}</a>
+        <a onClick={ () => setState(false)} href="/offer#cybersecurity">{t('navBar.offer3')}</a>
+        <a onClick={ () => setState(false)} href="/offer#networking">{t('navBar.offer4')}</a>
+        <a onClick={ () => setState(false)} href="/offer#marketing">{t('navBar.offer5')}</a>
+        <a onClick={ () => setState(false)} href="/offer#gaming">{t('navBar.offer1')}</a>
       </div>
       <div className='col contact'>
-        <a className="title" href={`mailto:${globalVar.email}`}>{t('navBar.contacts')}</a>
-        <a href={`tel:${globalVar.numeroTlmLisboa}`}>{globalVar.numeroTlmLisboa}</a>
-        <a href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
-        <a href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>
-        <a href={`mailto:${globalVar.email}`}>{globalVar.email}</a>
+        <a onClick={ () => setState(false)} className="title" href={`mailto:${globalVar.email}`}>{t('navBar.contacts')}</a>
+        <a onClick={ () => setState(false)} href={`tel:${globalVar.numeroTlmLisboa}`}>{globalVar.numeroTlmLisboa}</a>
+        <a onClick={ () => setState(false)} href={globalVar.sedeLisboaMaps}>{globalVar.sedeLisboa}</a>
+        <a onClick={ () => setState(false)} href={globalVar.sedePortoMaps}>{globalVar.sedePorto}</a>
+        <a onClick={ () => setState(false)} href={`mailto:${globalVar.email}`}>{globalVar.email}</a>
       </div>
     </nav >
   )
