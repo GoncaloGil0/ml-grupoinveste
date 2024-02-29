@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const pastaCaminho = 'C:\\Users\\peter\\Blendbyte\\Produção - Documentos\\PRODUÇÃO\\Interno-Grupo\\1. Grupo Investe\\4. RH - Fotos\\Finais\\Editadas'; // Substitua pelo caminho da sua pasta
+const pastaCaminho = "C:\\Users\\peter\\Downloads\\Editadas";
 
 function obterNomesDeArquivos(caminho) {
     return fs.readdirSync(caminho);
