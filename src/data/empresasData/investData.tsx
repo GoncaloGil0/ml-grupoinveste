@@ -7,7 +7,7 @@ export const investData: empresaDataInterface = {
     "logo_white":"https://media.grupoinveste.pt/emp/invest2030/horizontal_white.png",
     "header": {
         "website": "https://invest2030.pt",
-        "banner": "https://www.invest2030.pt/images/cover1.jpg",
+        "banner": "https://media.grupoinveste.pt/emp/invest2030/banner.png",
         "tags": [
             "invest2030.tags.0", "invest2030.tags.1", "invest2030.tags.2",
         ],

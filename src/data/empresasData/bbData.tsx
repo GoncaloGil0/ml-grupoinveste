@@ -7,7 +7,7 @@ export const bbData: empresaDataInterface = {
     "link": "/Blendbyte",
     "header": {
         "website": "https://blendbyte.pt",
-        "banner": "https://www.invest2030.pt/images/cover1.jpg",
+        "banner": "https://media.grupoinveste.pt/emp/blendbyte/banner.png",
         "tags": [
             "blendbyte.tags.0", "blendbyte.tags.1", "blendbyte.tags.2", 
         ],
