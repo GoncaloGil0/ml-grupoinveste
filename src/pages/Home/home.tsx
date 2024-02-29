@@ -193,7 +193,7 @@ export default function Home() {
                 <img src={data.logo_white} alt={data.header.name} />
                 <h4>{t(data.header.name)}</h4>
                 <p>{t(data.header.slogan)}</p>
-                <a target="_blank" href={data.header.website}>{t('Website')}<BiChevronRight /></a>
+                <a target="_blank" rel="noreferrer" href={data.header.website}>{t('Website')}<BiChevronRight /></a>
               </div>
             </a>
           </div>

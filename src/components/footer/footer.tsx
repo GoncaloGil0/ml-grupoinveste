@@ -52,7 +52,7 @@ export default function Footer() {
           <a href={`mailto:${globalVar.email}`}>{globalVar.email}</a>
           <h6 className="redes" >{t('Footer.social')}</h6>
           <div className="social">
-            <a target="_blank" href="https://www.linkedin.com/company/grupoinveste"><FaLinkedin /></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/grupoinveste"><FaLinkedin /></a>
           </div>
     
         </div>
