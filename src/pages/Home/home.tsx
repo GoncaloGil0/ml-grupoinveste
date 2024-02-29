@@ -12,6 +12,7 @@ import BtnScrool from "../../components/animation/BtnScrool/btnScrool";
 import { dataEmpresas } from "../../data/dataEmpresas";
 import { useTranslation } from "react-i18next";
 import { clientes } from "../../data/clientes";
+import sec1 from '../../assets/bg/aboutSec1.jpg'
 
 export default function Home() {
   const { t } = useTranslation();
@@ -103,7 +104,7 @@ export default function Home() {
         </div>
       </Hero.Root>
 
-      <Section.Root id="about" img="" alt="Era Bom uma imagem de equipa">
+      <Section.Root id="about" img={sec1} alt="Who is Grupo Investe">
         <Section.Title title={t('home.section2.title')} />
         <Section.Text desc={t('home.section2.text1')} />
         <Section.Text desc={t('home.section2.text2')} />

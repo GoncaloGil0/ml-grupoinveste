@@ -7,6 +7,7 @@ import { rh } from "../../data/rh";
 import './about.css'
 import about from '../../assets/bg/about.jpg'
 import hands from '../../assets/bg/hands.jpg'
+import sec1 from '../../assets/bg/homeSec1.jpg'
 import { useTranslation } from "react-i18next";
 
 export default function About() {
@@ -32,7 +33,7 @@ export default function About() {
                 <img loading="lazy" src={hands} alt="grupo investe history" />
             </div>
 
-            <Section.Root id="mission" img="" alt="Era Bom uma imagem de equipa toda">
+            <Section.Root id="mission" img={sec1} alt="About Grupo Investe">
                 <Section.Title title={t('about.section2.title')} />
                 <Section.Text desc={t('about.section2.text1')} />
                 <Section.Text desc={t('about.section2.text2')} />
